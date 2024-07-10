@@ -1,6 +1,6 @@
 ---
-title: "Intro to statistics"
-subtitle: "A brief introduction to applied statistics for quantitative social science research"
+title: "Ecuadorian Datasets"
+subtitle: "A brief review of the Ecuadorian research data landscape"
 author: "Laboratorio de Investigación para el Desarrollo del Ecuador"
 format: pdf
 bibliography: bibliography-files/syllabus-references.bib
@@ -9,13 +9,13 @@ number-sections: true
 
 **Instructor**: Daniel Sánchez, MA
 
-**Module length**: 15 hours
+**Module length**: 3 hours
 
-**Course level**: Intermediate
+**Course level**: Introductory
 
-**Prerequisite knowledge**: Basic arithmetic, algebra, cartesian graphing, Stata scripting, Git. 
+**Prerequisite knowledge**: None
 
-**GitHub repository**: [https://github.com/laboratoriolide/intro-to-stats](https://github.com/laboratoriolide/intro-to-stats)
+**GitHub repository**: https://github.com/laboratoriolide/ecuadorian-datasets
 
 # Course overview
 
@@ -160,7 +160,6 @@ Finally, I will use Git and GitHub for version control and to distribute course 
 # Communication
 
 All communications to the instructor or teaching assistant (TA) should be made through the course's Slack channel. We hope to respond to questions within 72 hours, but please be patient if we take longer. I do not monitor email regularly, so please use Slack for all communications if you need a timely response.
-
 
 # References
 
