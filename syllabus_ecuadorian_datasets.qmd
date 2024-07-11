@@ -58,7 +58,7 @@ For each dataset, we'll cover the following aspects:
     - Health surveys - Encuesta Nacional de Salud y Nutrición (ENSANUT)
 
 - Main administrative datasets for researchers
-    - Employment data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
+    - Employment and salary data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
     - Business data - Directorio de Compañías (Superintendencia de Compañías) and Directorio de Empresas y Establecimientos (INEC)
     - Tax data: sales, purchases, value added tax, closures and suspensions (SRI).
 
