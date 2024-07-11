@@ -40,10 +40,27 @@ The following is a planned outline of the course. This may change depending on t
     - Servicio de Rentas Internas (SRI)
     - Instituto Ecuatoriano de Seguridad Social (IESS)
 
-- Main datasets for researchers
+<!-- 
+
+For each dataset, we'll cover the following aspects:
+ - What is the dataset about?
+ - What can you do with it?
+ - How to access it?
+ - Where to find documentation?
+ - Problems and limitations
+ - Examples of research using the dataset
+
+!--->
+
+- Main survey datasets for researchers
     - Employment surveys - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
     - Population Census - Censo de Población y Vivienda 
     - Health surveys - Encuesta Nacional de Salud y Nutrición (ENSANUT)
+
+- Main administrative datasets for researchers
+    - Employment data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
+    - Business data - Directorio de Compañías (Superintendencia de Compañías) and Directorio de Empresas y Establecimientos (INEC)
+    - Tax data: sales, purchases, value added tax, closures and suspensions (SRI).
 
 - Useful aggregator websites
     - Banco de Datos Abiertos Ecuador (Central Government)
@@ -70,7 +87,6 @@ The following is a planned outline of the course. This may change depending on t
     - Datalat
     - Observatorio Legislativo
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
-
 
 - Methodological challenges in using Ecuadorian datasets
     - Metadata and documentation
