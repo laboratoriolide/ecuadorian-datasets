@@ -61,8 +61,6 @@ For each dataset, we'll cover the following aspects:
     - Employment and salary data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
     - Business data - Directorio de Compañías (Superintendencia de Compañías) and Directorio de Empresas y Establecimientos (INEC)
     - Tax data: sales, purchases, value added tax, closures and suspensions (SRI).
-    - Demographic and morbidity data - Registro Civil
-    - Social security data - Instituto Ecuatoriano de Seguridad Social (IESS)
 
 - Useful aggregator websites
     - Banco de Datos Abiertos Ecuador (Central Government)
