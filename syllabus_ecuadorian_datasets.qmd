@@ -103,3 +103,7 @@ For each dataset, we'll cover the following aspects:
 # Evaluation
 
 This short module will be graded following the program's grading policy. Please consult the regulation handbook for more information. Attendance is mandatory, and students are encouraged to participate in the two lectures. All communications should be made through Slack. 
+
+# Communication
+
+All communications to the instructor should be made through the course's Slack channel. I do not monitor email regularly, so please use Slack for all communications if you need a timely response.
