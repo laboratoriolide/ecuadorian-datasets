@@ -22,7 +22,7 @@ This short module provides an overview of the existing data for Ecuador, with a 
 
 # Module contents {#sec-contents}
 
-The following is a planned outline of the course. This may change depending on the pace of the class. The module's materials, including slides, links, datasets and all other files, will be released in the course's [GitHub repository](https://github.com/laboratoriolide/ecuadorian-datasets).
+The following is a planned outline of the course. This may change depending on the pace of the class. The module's materials, including slides, links, datasets and all other files (if applicable), will be released in the course's [GitHub repository](https://github.com/laboratoriolide/ecuadorian-datasets).
 
 ## Lecture 1: Introduction and basic datasets
 

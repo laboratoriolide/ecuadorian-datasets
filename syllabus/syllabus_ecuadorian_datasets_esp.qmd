@@ -1,39 +1,29 @@
 ---
-title: "Ecuadorian Datasets"
-subtitle: "A brief review of the Ecuadorian research data landscape"
+title: "Bases de Datos Ecuatorianas"
+subtitle: "Una breve revisión del panorama ecuatoriano de datos de investigación"
 author: "Laboratorio de Investigación para el Desarrollo del Ecuador"
 format: pdf
 number-sections: true
 ---
 
-**Instructor**: Daniel Sánchez, MA
+# Descripción del curso
 
-**Module length**: 3 hours
+Este módulo proporciona una visión general de los datos existentes para Ecuador, con un enfoque en conjuntos de datos que pueden ser aprovechados para la investigación en ciencias sociales cuantitativas. A menudo, un investigador puede encontrar obstáculos encontrando datos que respondan a sus preguntas de investigación. Este módulo tiene como objetivo proporcionar las herramientas para encontrar y acceder a conjuntos de datos existentes, así como entender los problemas metodológicos que implican su uso. Se introducen los tipos de conjuntos de datos existentes, dónde encontrarlos, las instituciones que los producen, cómo acceder a ellos, los problemas metodológicos y el potencial para investigaciones futuras. El módulo está diseñado para quiénes estén interesados en realizar investigaciones enfocadas en el Ecuador, pero que no están familiarizados con el panorama de datos existente. **No** se contempla la recolección de datos primarios, sino el uso de datos secundarios, es decir, aquellos que ya han sido recolectados por otras personas o instituciones.
 
-**Course level**: Introductory
+# Contenidos {#sec-contents}
 
-**Prerequisite knowledge**: None
+El siguiente es un esquema planificado del curso. Esto puede cambiar dependiendo del ritmo de la clase. Los materiales del módulo, incluidos las diapositivas, enlaces, conjuntos de datos (si es que aplica) y todos los demás archivos, se publicarán en el Google Drive del programa.
 
-**GitHub repository**: https://github.com/laboratoriolide/ecuadorian-datasets
+## Clase 1: Introducción y conjuntos de datos básicos
 
-# Course overview
+- Introducción al módulo: objetivos y expectativas
+- Tipos de conjuntos de datos: administrativos, encuestas y experimentales
+- Panorama general de los datos ecuatorianos
+    - Instituciones públicas (gobiernos central y locales)
+    - Iniciativas no gubernamentales (académicas y de la sociedad civil)
+    - Organizaciones internacionales
 
-This short module provides an overview of the existing data for Ecuador, with a focus on datasets which can be leveraged for quantitative social science research. Oftentimes, young researchers may hit a hard stop in their research due to their inability to find good data to answer their research questions. This module aims to provide students with the tools to find and access existing datasets, as well as to understand the methodological issues that come with using them. I introduce the existing dataset types, where to find them, the institutions that produce them, how to access them, methodological issues, and the potential for future research. The module is designed for students who are interested in conducting research in Ecuador, but are not familiar with the existing data landscape.
-
-# Module contents {#sec-contents}
-
-The following is a planned outline of the course. This may change depending on the pace of the class. The module's materials, including slides, links, datasets and all other files, will be released in the course's [GitHub repository](https://github.com/laboratoriolide/ecuadorian-datasets).
-
-## Lecture 1: Introduction and basic datasets
-
-- Introduction to the module: objectives and expectations
-- Types of datasets: administrative, surveys, and experimental
-- Overview of the Ecuadorian data landscape
-    - Public institutions (central and local governments)
-    - Non-governmental initiatives (academic and civil society)
-    - International organizations
-
-- Main public institutions producing datasets
+- Principales instituciones públicas que producen conjuntos de datos
     - Instituto Nacional de Estadística y Censos (INEC)
     - Banco Central del Ecuador (BCE)
     - Registro Civil
@@ -42,62 +32,62 @@ The following is a planned outline of the course. This may change depending on t
 
 <!-- 
 
-For each dataset, we'll cover the following aspects:
- - What is the dataset about?
- - What can you do with it?
- - How to access it?
- - Where to find documentation?
- - Problems and limitations
- - Examples of research using the dataset
+Para cada conjunto de datos, cubriremos los siguientes aspectos:
+ - ¿De qué trata el conjunto de datos?
+ - ¿Qué se puede hacer con él?
+ - ¿Cómo acceder a él?
+ - ¿Dónde encontrar la documentación?
+ - Problemas y limitaciones
+ - Ejemplos de investigaciones utilizando el conjunto de datos
 
 !--->
 
-- Main survey datasets for researchers
-    - Employment surveys - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
-    - Population Census - Censo de Población y Vivienda 
-    - Health surveys - Encuesta Nacional de Salud y Nutrición (ENSANUT)
+- Principales conjuntos de datos de encuestas para investigadores
+    - Encuestas de empleo - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
+    - Censo de Población y Vivienda
+    - Encuestas de salud - Encuesta Nacional de Salud y Nutrición (ENSANUT)
 
-- Main administrative datasets for researchers
-    - Employment and salary data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
-    - Business data - Directorio de Compañías (Superintendencia de Compañías) and Directorio de Empresas y Establecimientos (INEC)
-    - Tax data: sales, purchases, value added tax, closures and suspensions (SRI).
+- Principales conjuntos de datos administrativos para investigadores
+    - Datos de empleo y salarios - Registro Estadístico de Empleo en la Seguridad Social (REESS)
+    - Datos empresariales - Directorio de Compañías (Superintendencia de Compañías) y Directorio de Empresas y Establecimientos (INEC)
+    - Datos tributarios: ventas, compras, impuesto al valor agregado, cierres y suspensiones (SRI)
 
-- Useful aggregator websites
-    - Banco de Datos Abiertos Ecuador (Central Government)
+- Sitios web agregadores útiles
+    - Banco de Datos Abiertos Ecuador (Gobierno Central)
     - Banco de Datos Abiertos INEC
     - Archivo Nacional de Metadatos Estadísticos (INEC)
     - Geoportal INEC
 
-## Lecture 2: Beyond the basics
+## Clase 2: Más allá de lo básico
 
-- Local Government dataset initiatives
-- *Open Government* initiatives
-    - Gobierno Abierto (Local Governments)
-    - Banco de Datos Abiertos Ecuador (Central Government)
-- International country level datasets
-    - World Bank
-    - Inter-American Development Bank
-    - United Nations
+- Iniciativas de conjuntos de datos de gobiernos locales
+- Iniciativas de *Gobierno Abierto*
+    - Gobierno Abierto (Gobiernos Locales)
+    - Banco de Datos Abiertos Ecuador (Gobierno Central)
+- Conjuntos de datos internacionales a nivel de país
+    - Banco Mundial
+    - Banco Interamericano de Desarrollo
+    - Naciones Unidas
     - CEPAL
-- International Surveys
-    - AmericasBarometer
+- Encuestas internacionales
+    - Barómetro de las Américas
     - Latinobarómetro
-    - World Values Survey
-- International and non-governmental initiatives:
+    - Encuesta Mundial de Valores
+- Iniciativas internacionales y no gubernamentales:
     - Datalat
     - Observatorio Legislativo
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
 
-- Methodological challenges in using Ecuadorian datasets
-    - Metadata and documentation
-    - Ease of access and availability
-    - Data quality, reliability and ethical considerations
-    - Accessing government institutions outside Ecuador
-    - Comparison to other Latin American countries
-    - Data cleaning and processing, common issues
-    - Reproducibility in peer-reviewed research
-    - How do published authors use Ecuadorian datasets?
+- Desafíos metodológicos en el uso de conjuntos de datos ecuatorianos
+    - Metadatos y documentación
+    - Facilidad de acceso y disponibilidad
+    - Calidad de los datos, fiabilidad y consideraciones éticas
+    - Acceso a instituciones gubernamentales fuera de Ecuador
+    - Comparación con otros países de América Latina
+    - Limpieza y procesamiento de datos, problemas comunes
+    - Reproducibilidad en la investigación revisada por pares
+    - ¿Cómo utilizan los autores publicados los conjuntos de datos ecuatorianos?
 
-# Evaluation
+# Metodología
 
-This short module will be graded following the program's grading policy. Please consult the regulation handbook for more information. Attendance is mandatory, and students are encouraged to participate in the two lectures. All communications should be made through Slack. 
+Las primeras dos clases se conducirán de forma sincrónica, con demostraciones del instructor y discusiones en grupo. La participación activa en la discusión y planteamiento de preguntas es recomendada para sacar provecho a este módulo. En la tercera clase de ayudantía, se planificarán sesiones personalizadas en donde los docentes pueden acudir al instructor con preguntas específicas sobre sus proyectos de investigación o una base de datos que le interese, y recibir asesoramiento sobre cómo encontrar, entender y acceder a los datos necesarios. De igual forma, es posible trabajar en temas más avanzados como el análisis de datos, la limpieza y la visualización, o la citación de datos en trabajos académicos.
