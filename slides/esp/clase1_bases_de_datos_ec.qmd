@@ -1,0 +1,17 @@
+---
+title: Bases de Datos Ecuatorianas
+subtitle: Laboratorio de Investigación para el Desarrollo del Ecuador
+author: Daniel Sánchez-Pazmiño
+date: Julio 2024
+format: 
+    revealjs:
+        theme: serif
+date-format: "MMMM YYYY"
+lang: es
+---
+
+# Introducción
+
+- ¿Por qué preocuparse por entender datos del Ecuador?
+
+- ¿Qué tienen en común algunos de los mejores artículos de investigadores ecuatorianos o que se enfocan en Ecuador?
