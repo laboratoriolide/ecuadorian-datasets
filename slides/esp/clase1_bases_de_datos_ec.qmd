@@ -44,10 +44,7 @@ bibliography: ../../references/ecu_papers.bib
 
 - La documentación de los datos puede ser limitada y la calidad de los datos no se garantiza.
 
-- La educación formal en el uso de datos ecuatorianos de investigación es limitada.
-
-
-    
+- La educación formal en el uso de datos ecuatorianos de investigación es limitada. 
 
 # Referencias
 
