@@ -23,6 +23,32 @@ bibliography: ../../references/ecu_papers.bib
 
     - @rivadeneira23: *[...] I use hand-collected and digitized historical tax records from Ecuador’s Spanish colonial regime to estimate the long-run effects of a forced labor institution named concertaje.*
 
+# ¿Es suficiente una buena idea? {.smaller}
+
+- Una buena pregunta de investigación es fundamental, pero no suficiente.
+
+- Un acceso factible a datos que permitan responder la pregunta define el éxito del proyecto.
+    - ¿Qué datos son necesarios?
+    - ¿Dónde están datos? ¿Cómo se pueden obtener?
+    - ¿Son fácilmente accesibles? ¿Cuanto tiempo/recursos se necesita para obtenerlos?
+
+# Problemas comunes en investigaciones del Ecuador {.smaller}
+
+- Para preguntas de investigación sobre el Ecuador, esto puede ser un desafío.
+
+- La capacidad estadística del Ecuador ha ido decreciendo en los últimos años.
+
+- La información disponible puede ser limitada o no estar disponible en formatos/agregaciones útiles.
+
+- La información puede ser sensible y requerir de permisos especiales.
+
+- La documentación de los datos puede ser limitada y la calidad de los datos no se garantiza.
+
+- La educación formal en el uso de datos ecuatorianos de investigación es limitada.
+
+
+    
+
 # Referencias
 
 :::{.references}
