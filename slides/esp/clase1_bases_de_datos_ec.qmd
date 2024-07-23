@@ -2,17 +2,29 @@
 title: Bases de Datos Ecuatorianas
 subtitle: Laboratorio de Investigación para el Desarrollo del Ecuador
 author: Daniel Sánchez-Pazmiño
-date: Julio 2024
+date: 2024-07-31
 format: 
     revealjs:
         theme: serif
-date-format: "MMMM YYYY"
+date-format: "long"
 lang: es
-bibliography: ecu_papers.bib
+bibliography: ../../references/ecu_papers.bib
 ---
 
-# Introducción
+# Introducción {.smaller}
 
 - ¿Por qué preocuparse por entender datos del Ecuador?
 
 - ¿Qué tienen en común algunos de los mejores artículos de investigadores ecuatorianos o que se enfocan en Ecuador?
+
+    - @adao_etal22: *The key input fed into our empirical analysis is a unique administrative data set from Ecuador that merges firm-to-firm transaction data, employer-employee matched data, owner-firm matched data, and firm-level customs transaction records.*
+
+    - @bosch_schady19: *To analyze the effects of transfers on the choice between formal and informal employment, we used the cédula of focal women, as reported in the 2007/08 poverty census, and merged in data on contributions to social security from IESS*. 
+
+    - @rivadeneira23: *[...] I use hand-collected and digitized historical tax records from Ecuador’s Spanish colonial regime to estimate the long-run effects of a forced labor institution named concertaje.*
+
+# Referencias
+
+:::{.references}
+
+:::
