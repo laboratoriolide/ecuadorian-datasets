@@ -8,6 +8,7 @@ format:
         theme: serif
 date-format: "MMMM YYYY"
 lang: es
+bibliography: ecu_papers.bib
 ---
 
 # Introducción
