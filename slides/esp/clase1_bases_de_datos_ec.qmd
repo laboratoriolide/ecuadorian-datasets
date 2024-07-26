@@ -44,7 +44,23 @@ bibliography: ../../references/ecu_papers.bib
 
 - La documentación de los datos puede ser limitada y la calidad de los datos no se garantiza.
 
-- La educación formal en el uso de datos ecuatorianos de investigación es limitada. 
+- La educación formal en el uso de datos ecuatorianos de investigación es limitada.
+
+# Procesos de recolección de datos
+
+- Fuentes primarias: datos recolectados directamente del fenómeno de interés por nosotros como investigadores.
+    - Implica un proceso de recolección de datos.
+    - Puede ser costoso y requerir tiempo.
+    - Ejemplos: encuestas, experimentos, observaciones.
+    - Para un artículo de investigación **publicable**, se requerirá una junta de revisión ética (*internal review board*).
+
+- Datos secundarios: información recolectada por otros investigadores o instituciones, utilizable para nuestras propias investigaciones.
+    - Pueden ser gratuitos o pagados.
+    - Pueden ser públicos o privados.
+    - Ejemplos: censos, datos de encuesta, registros administrativos, datos de redes sociales.
+    - Generalmente no requieren de un IRB, lo que facilita su uso.
+
+- **Este curso se enfoca en bases de datos secundarias**.
 
 # Referencias
 
