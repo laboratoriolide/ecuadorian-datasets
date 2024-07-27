@@ -101,6 +101,28 @@ bibliography: ../../references/ecu_papers.bib
     - Reportes: información presentada en documentos, generalmente con análisis y gráficos. También incluye tableros o *dashboards* dinámicos.
     - Base de datos: varias tablas de microdatos que pueden ser unidas por un identificador
 
+# Panorama general de los datos ecuatorianos {.smaller}
+
+- Existen varias instituciones que producen datos en Ecuador:
+    - Instituciones públicas (gobiernos central y locales)
+    - Iniciativas no gubernamentales (sociedad civil)
+    - Organizaciones internacionales
+
+- Una mayoría de los datos fácilmente utilizables provienen del **Instituto Nacional de Estadística y Censos (INEC)**.
+    - Todo país tiene un instituto con un mandato de recolección de datos estadísticos.
+    - Encargado de la administración de censos y encuestas
+    - Mantiene una biblioteca de información para datos de otras instituciones 
+
+# Panorama general de los datos ecuatorianos {.smaller}
+
+- La información macroeconómica proviene del **Banco Central del Ecuador (BCE)**
+
+- Otras instituciones importantes a considerar:
+     - Registro Civil: información demográfica
+     - Servicio de Rentas Internas (SRI): información tributaria
+     - Superintendencia de Compañías: información de empresas y bolsa de valores
+     - Instituto Ecuatoriano de Seguridad Social (IESS): empleo, salud, pensiones
+
 # Referencias
 
 :::{.references}
