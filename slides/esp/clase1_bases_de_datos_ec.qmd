@@ -27,40 +27,41 @@ bibliography: ../../references/ecu_papers.bib
 
 - Una buena pregunta de investigación es fundamental, pero no suficiente.
 
+- Es generalmente necesario contar con una demostración empírica que respalde nuestra respuesta a la pregunta de investigación
+    - Esto implica contar con información o **datos**.
+
 - Un acceso factible a datos que permitan responder la pregunta define el éxito del proyecto.
     - ¿Qué datos son necesarios?
     - ¿Dónde están datos? ¿Cómo se pueden obtener?
     - ¿Son fácilmente accesibles? ¿Cuanto tiempo/recursos se necesita para obtenerlos?
 
+# Recolección de datos {.smaller}
+
+- Recolección primaria de datos: recolección directa del fenómeno de interés por el investigador
+    - Surge de las fuentes primarias (i.e. el encuestado)
+    - Puede ser costoso y requerir tiempo.
+    - Encuestas, experimentos, observaciones.
+    - Se requerirá una junta de revisión ética (*internal review board*).
+
+- Fuentes secundarias: información recolectada por otros investigadores o instituciones, utilizable para nuestros propósitos.
+    - Gratuitos o pagados.
+    - Censos, datos de encuesta, registros administrativos, datos de redes sociales.
+
+- **Este curso se enfoca en el uso de fuentes secundarias**.
+
 # Problemas comunes en investigaciones del Ecuador {.smaller}
 
-- Para preguntas de investigación sobre el Ecuador, esto puede ser un desafío.
+- Existen fuentes secundarias de datos, pero no siempre son fáciles de encontrar o acceder.
 
 - La capacidad estadística del Ecuador ha ido decreciendo en los últimos años.
 
-- La información disponible puede ser limitada o no estar disponible en formatos/agregaciones útiles.
+- La información puede ser limitada o no disponible en formatos/agregaciones útiles.
 
-- La información puede ser sensible y requerir de permisos especiales.
+- Se puede requerir de permisos especiales.
 
 - La documentación de los datos puede ser limitada y la calidad de los datos no se garantiza.
 
 - La educación formal en el uso de datos ecuatorianos de investigación es limitada.
-
-# Procesos de recolección de datos
-
-- Fuentes primarias: datos recolectados directamente del fenómeno de interés por nosotros como investigadores.
-    - Implica un proceso de recolección de datos.
-    - Puede ser costoso y requerir tiempo.
-    - Ejemplos: encuestas, experimentos, observaciones.
-    - Para un artículo de investigación **publicable**, se requerirá una junta de revisión ética (*internal review board*).
-
-- Datos secundarios: información recolectada por otros investigadores o instituciones, utilizable para nuestras propias investigaciones.
-    - Pueden ser gratuitos o pagados.
-    - Pueden ser públicos o privados.
-    - Ejemplos: censos, datos de encuesta, registros administrativos, datos de redes sociales.
-    - Generalmente no requieren de un IRB, lo que facilita su uso.
-
-- **Este curso se enfoca en bases de datos secundarias**.
 
 # Referencias
 
