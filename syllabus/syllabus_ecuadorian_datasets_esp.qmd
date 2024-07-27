@@ -16,8 +16,9 @@ El siguiente es un esquema planificado del curso. Esto puede cambiar dependiendo
 
 ## Clase 1: Introducción y conjuntos de datos básicos
 
-- Introducción al módulo: objetivos y expectativas
-- Tipos de conjuntos de datos: administrativos, encuestas y experimentales
+- Introducción al módulo
+- Tipos de conjuntos de datos y como se presentan ante el usuario
+
 - Panorama general de los datos ecuatorianos
     - Instituciones públicas (gobiernos central y locales)
     - Iniciativas no gubernamentales (académicas y de la sociedad civil)
@@ -51,6 +52,7 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Datos de empleo y salarios - Registro Estadístico de Empleo en la Seguridad Social (REESS)
     - Datos empresariales - Directorio de Compañías (Superintendencia de Compañías) y Directorio de Empresas y Establecimientos (INEC)
     - Datos tributarios: ventas, compras, impuesto al valor agregado, cierres y suspensiones (SRI)
+    - Voto y elecciones - Registro Electoral (Consejo Nacional Electoral)
 
 - Sitios web agregadores útiles
     - Banco de Datos Abiertos Ecuador (Gobierno Central)

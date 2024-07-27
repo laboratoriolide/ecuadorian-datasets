@@ -63,6 +63,42 @@ bibliography: ../../references/ecu_papers.bib
 
 - La educación formal en el uso de datos ecuatorianos de investigación es limitada.
 
+# Tipos de datos {.smaller}
+
+1. Censos: recolección de información de toda una población o una muestra considerable de la misma. 
+    - Ejemplo: Censo de Población y Vivienda, Censo de Empresas.
+    - Ventajas: excelente cobertura, gran cantidad de variables de interés. 
+    - Desventajas: poco frecuentes, no disponibles para varias situaciones y/o agregaciones.
+
+2. Encuestas: recolección de información de una muestra de la población.
+    - Ejemplo: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), Encuesta Nacional de Salud y Nutrición (ENSANUT).
+    - Ventajas: dependiendo del caso, actualización frecuente y gran cantidad de variables de interés, posibilidad de obtener información detallada.
+    - Desventajas: limitaciones en la cobertura, calidad de la información, generalmente no es posible realizar seguimiento de individuos.
+
+2. **Datos administrativos**: recolectados por instituciones generalmente públicas para propósitos no investigativos, pero que pueden ser utilizados de todas formas.
+    - Ejemplo: registros de empleo del IESS, registros de empresas de la Superintendencia de Compañías.
+    - Ventajas: gran cobertura, actualización frecuente, posibilidad de seguimiento a unidades individuales.
+    - Desventajas: limitaciones en la calidad, formatos o acceso inconvenientes, complicaciones estadísticas, falta de variables de interés investigativo.
+
+# Varias presentaciones de datos {.smaller}
+
+- Es muy importante saber diferenciar las maneras en las que la información se presenta y cómo podemos acceder a la misma. 
+
+- Para esto, es importante reconocer la *unidad de observación* de los datos.
+    - ¿De qué se está recolectando información?
+
+- Ejemplo: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU).
+    - Unidad de observación: individuos (personas) y hogares.
+
+# Tipos de presentación de datos {.smaller}
+
+- Existen diferentes formas en las que una institución libera datos:
+    - Metadatos: información **sobre** los datos, como variables, códigos, definiciones, etc.
+    - Microdatos o datos individuales: información a nivel de individuos, empresas, hogares, etc.
+    - Agregados o tabulados: información resumida, generalmente a nivel de grupos como provincias, sectores económicos, etc.
+    - Reportes: información presentada en documentos, generalmente con análisis y gráficos. También incluye tableros o *dashboards* dinámicos.
+    - Base de datos: varias tablas de microdatos que pueden ser unidas por un identificador
+
 # Referencias
 
 :::{.references}
