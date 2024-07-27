@@ -79,6 +79,8 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Datalat
     - Observatorio Legislativo
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
+    - Asobanca
+    - CORDES (Nowcast)
 
 - Desafíos metodológicos en el uso de conjuntos de datos ecuatorianos
     - Metadatos y documentación
