@@ -123,6 +123,13 @@ bibliography: ../../references/ecu_papers.bib
      - Superintendencia de Compañías: información de empresas y bolsa de valores
      - Instituto Ecuatoriano de Seguridad Social (IESS): empleo, salud, pensiones
 
+# Utilizando el sitio web del INEC {.smaller}
+
+- El sitio web https://www.ecuadorencifras.gob.ec/ es la principal fuente de datos del INEC.
+    - Se accede a datos seleccionando la opción *Estadísticas*
+
+[INEC](../img/inec_sitio_web_1.png)
+
 # Referencias
 
 :::{.references}
