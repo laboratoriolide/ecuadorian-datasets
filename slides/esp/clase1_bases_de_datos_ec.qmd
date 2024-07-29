@@ -130,6 +130,8 @@ bibliography: ../../references/ecu_papers.bib
 
 ![INEC](img/inec_sitio_web_1.png)
 
+# 
+
 # Referencias
 
 :::{.references}
