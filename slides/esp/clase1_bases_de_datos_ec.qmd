@@ -170,9 +170,11 @@ bibliography: ../../references/ecu_papers.bib
 
  - Encuesta de Salud y Bienestar del Adulto Mayor (SABE)
 
-# Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU) {.smaller}
+# ENEMDU {.smaller}
 
-![ENEMDU](img/enemdu_homepage.png)
+- Se puede acceder a tabulaciones, metadatos y microdatos de la ENEMDU en la página del [INEC](https://www.ecuadorencifras.gob.ec/estadisticas-laborales-abril-2023-2/).
+
+![Página principal ENEMDU](img/enemdu_homepage.png)
 
 # Referencias
 
