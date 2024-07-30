@@ -210,7 +210,17 @@ bibliography: ../../references/ecu_papers.bib
 - Accesibles para el período vigente, años anteriores y matrices de transición.
     - Formato SPSS y CSV.
 
-![Base de datos ENEMDU](img/bases_de_datos_enemdu.png)	
+![Base de datos ENEMDU](img/bases_de_datos_enemdu.png)
+
+# Principales registros administrativos {.smaller}
+
+- [Registro Estadístico de Empleo en la Seguridad Social (REESS)](https://www.ecuadorencifras.gob.ec/registro-empleo-seguridad-social/)
+
+- [Directorio de Compañías (Superintendencia de Compañías)](https://www.supercias.gob.ec/)
+
+- [Directorio de Empresas y Establecimientos/Registro Estadístico de Empresas (REEM)](https://www.ecuadorencifras.gob.ec/directoriodeempresas/)
+
+
 
 # Referencias
 
