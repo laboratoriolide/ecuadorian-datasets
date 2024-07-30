@@ -158,6 +158,13 @@ bibliography: ../../references/ecu_papers.bib
 
 - El último censo se realizó en 2022, y se encuentra en [una página aparte](https://www.censoecuador.gob.ec/).
 
+<!--
+- Show the page of the 2022 census
+- Show how to access the data and tabulations, metadata.
+- Repeat for 2010 census.
+- Show that projections are recently available using 2022 data.
+-->
+
 # Principales encuestas {.smaller}
 
  - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
@@ -170,11 +177,40 @@ bibliography: ../../references/ecu_papers.bib
 
  - Encuesta de Salud y Bienestar del Adulto Mayor (SABE)
 
-# ENEMDU {.smaller}
+# [ENEMDU](https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2021/Marzo-2021/Diseño%20Muestral%20ENEMDU%20Trimestral%20Enero_Marzo%202021.pdf) {.smaller}
+ 
+- Encuesta de empleo, representativa a nivel nacional y urbano-rural**.
+
+- Se lleva a cabo de forma mensual
+    - Las ENEMDU "trimestral" y "anual" son agregaciones de las mensuales.
+    - Las agregaciones permiten ganar representatividad y reducir errores de muestreo.
 
 - Se puede acceder a tabulaciones, metadatos y microdatos de la ENEMDU en la página del [INEC](https://www.ecuadorencifras.gob.ec/estadisticas-laborales-abril-2023-2/).
 
+# Página principal ENEMDU {.smaller}
+
 ![Página principal ENEMDU](img/enemdu_homepage.png)
+
+<!-- 
+- Show how to access the data and tabulations, metadata.
+- 
+ -->
+
+# Tabulaciones, reportes y metadatos ENEMDU {.smaller}	
+
+- Se puede acceder a:
+    - Principales resultados (reporte)
+    - Tabulados y series históricas	(tabulaciones)
+    - Fichas técnicas, guías de usuario, diccionarios de variables, metodología y sintaxis (metadatos)
+    
+- Las matrices de transición permiten hacer un análisis de seguimiento de individuos a lo largo del tiempo a lo largo de las olas de la encuesta.
+
+# Base de datos de ENEMDU {.smaller}
+
+- Accesibles para el período vigente, años anteriores y matrices de transición.
+    - Formato SPSS y CSV.
+
+![Base de datos ENEMDU](img/bases_de_datos_enemdu.png)	
 
 # Referencias
 
