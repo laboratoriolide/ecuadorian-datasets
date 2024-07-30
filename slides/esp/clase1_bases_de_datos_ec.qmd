@@ -230,11 +230,13 @@ bibliography: ../../references/ecu_papers.bib
 
 # Sitios web agregadores útiles {.smaller}
 
-- [Banco de Datos Abiertos INEC](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml): datos del gobierno central
+- [Banco de Datos Abiertos INEC](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml)
 
-- [Banco de Datos Abiertos Ecuador](https://www.datosecuador.gob.ec/): datos del gobierno central
+- [Catálogo de Datos Abiertos del Gobierno Central](https://datosabiertos.gob.ec/)
 
-- [Catálogo de Datos Abiertos del Gobierno Central](https://datosabiertos.gob.ec/): datos del gobierno central
+- [Archivo Nacional de Metadatos Estadísticos INEC](https://anda.inec.gob.ec/anda/index.php/queeselanda)	
+
+
 
 # Referencias
 

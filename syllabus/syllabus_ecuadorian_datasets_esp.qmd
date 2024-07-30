@@ -58,7 +58,6 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Banco de Datos Abiertos Ecuador (Gobierno Central)
     - Banco de Datos Abiertos INEC
     - Archivo Nacional de Metadatos Estadísticos (INEC)
-    - Geoportal INEC
 
 ## Clase 2: Más allá de lo básico
 
@@ -81,6 +80,10 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
     - Asobanca
     - CORDES (Nowcast)
+
+- Datos especiales
+    - Geoportal INEC
+    - Datos macroeconómicos
 
 - Desafíos metodológicos en el uso de conjuntos de datos ecuatorianos
     - Metadatos y documentación
