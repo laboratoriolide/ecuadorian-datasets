@@ -236,8 +236,6 @@ bibliography: ../../references/ecu_papers.bib
 
 - [Archivo Nacional de Metadatos Estadísticos INEC](https://anda.inec.gob.ec/anda/index.php/queeselanda)	
 
-
-
 # Referencias
 
 :::{.references}
