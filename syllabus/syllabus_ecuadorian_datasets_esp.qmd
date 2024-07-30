@@ -47,6 +47,13 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Encuestas de empleo - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
     - Censo de Población y Vivienda
     - Encuestas de salud - Encuesta Nacional de Salud y Nutrición (ENSANUT)
+    - Otros
+
+- Revisión a fondo: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
+    - ¿De qué trata el conjunto de datos?
+    - ¿Qué se puede hacer con él?
+    - ¿Cómo acceder a él?
+    - ¿Dónde encontrar la documentación?
 
 - Principales conjuntos de datos administrativos para investigadores
     - Datos de empleo y salarios - Registro Estadístico de Empleo en la Seguridad Social (REESS)
@@ -61,15 +68,16 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
 
 ## Clase 2: Más allá de lo básico
 
-- Iniciativas de conjuntos de datos de gobiernos locales
 - Iniciativas de *Gobierno Abierto*
-    - Gobierno Abierto (Gobiernos Locales)
+    - Gobierno Abierto Quito, Quito Cómo Vamos.
     - Banco de Datos Abiertos Ecuador (Gobierno Central)
+
 - Conjuntos de datos internacionales a nivel de país
-    - Banco Mundial
+    - Banco Mundial (WDI, WGI)
     - Banco Interamericano de Desarrollo
     - Naciones Unidas
     - CEPAL
+
 - Encuestas internacionales
     - Barómetro de las Américas
     - Latinobarómetro
@@ -79,11 +87,10 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
     - Observatorio Legislativo
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
     - Asobanca
-    - CORDES (Nowcast)
 
 - Datos especiales
     - Geoportal INEC
-    - Datos macroeconómicos
+    - Datos macroeconómicos: BCE, CEPAL, FMI, Banco Mundial, Cordes (NowCast).
 
 - Desafíos metodológicos en el uso de conjuntos de datos ecuatorianos
     - Metadatos y documentación
@@ -97,6 +104,6 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
 
 # Metodología
 
-Las primeras dos clases se conducirán de forma sincrónica, con demostraciones del instructor y discusiones en grupo. La participación activa en la discusión y planteamiento de preguntas es recomendada para sacar provecho a este módulo. En la tercera clase de ayudantía, se planificarán sesiones personalizadas en donde los docentes pueden acudir al instructor con preguntas específicas sobre sus proyectos de investigación o una base de datos que le interese, y recibir asesoramiento sobre cómo encontrar, entender y acceder a los datos necesarios. De igual forma, es posible trabajar en temas más avanzados como el análisis de datos, la limpieza y la visualización, o la citación de datos en trabajos académicos.
+Las primeras dos clases se conducirán de forma sincrónica, con demostraciones del instructor y discusiones en grupo. La participación activa en la discusión y planteamiento de preguntas es recomendada para sacar provecho a este módulo. En la tercera clase de ayudantía, se planificarán sesiones personalizadas en donde los docentes pueden acudir al instructor con preguntas específicas sobre sus proyectos de investigación o una base de datos que le interese, y recibir asesoramiento sobre cómo encontrar, entender y acceder a los datos necesarios. De igual forma, es posible trabajar en temas más avanzados como el análisis de datos, la limpieza y la visualización, o la citación de datos en trabajos académicos. En caso de que el tiempo de las primeras dos clases no sea suficiente para cubrir todos los temas, se podrá utilizar la tercera clase para completar el contenido.
 
 # Referencias
