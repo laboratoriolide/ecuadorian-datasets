@@ -210,17 +210,31 @@ bibliography: ../../references/ecu_papers.bib
 - Accesibles para el período vigente, años anteriores y matrices de transición.
     - Formato SPSS y CSV.
 
+- Información de años anteriores disponible en el [Banco de Datos Abiertos INEC](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml)
+
 ![Base de datos ENEMDU](img/bases_de_datos_enemdu.png)
 
 # Principales registros administrativos {.smaller}
 
+- [Nacidos vivos](https://www.ecuadorencifras.gob.ec/anuario-de-nacimientos-y-defunciones/) y [defunciones generales](https://www.ecuadorencifras.gob.ec/defunciones-generales/) del Registro Civil (en INEC)
+
 - [Registro Estadístico de Empleo en la Seguridad Social (REESS)](https://www.ecuadorencifras.gob.ec/registro-empleo-seguridad-social/)
 
-- [Directorio de Compañías (Superintendencia de Compañías)](https://www.supercias.gob.ec/)
+- [Directorio de Compañías (Superintendencia de Compañías)](https://mercadodevalores.supercias.gob.ec/reportes/directorioCompanias.jsf)
 
 - [Directorio de Empresas y Establecimientos/Registro Estadístico de Empresas (REEM)](https://www.ecuadorencifras.gob.ec/directoriodeempresas/)
 
+- Información tributaria del [Servicio de Rentas Internas (SRI)](https://www.sri.gob.ec/datos-abiertos): catastro, recaudación, ventas, compras, presión fiscal, vehículos, comprobantes electrónicos, etc.
 
+- Resultados electorales del [Consejo Nacional Electoral](https://www.cne.gob.ec/resultados-electorales/)
+
+# Sitios web agregadores útiles {.smaller}
+
+- [Banco de Datos Abiertos INEC](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml): datos del gobierno central
+
+- [Banco de Datos Abiertos Ecuador](https://www.datosecuador.gob.ec/): datos del gobierno central
+
+- [Catálogo de Datos Abiertos del Gobierno Central](https://www.gobiernodigital.gob.ec/datos-abiertos/): datos del gobierno central
 
 # Referencias
 
