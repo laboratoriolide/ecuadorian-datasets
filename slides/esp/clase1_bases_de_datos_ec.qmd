@@ -234,7 +234,7 @@ bibliography: ../../references/ecu_papers.bib
 
 - [Banco de Datos Abiertos Ecuador](https://www.datosecuador.gob.ec/): datos del gobierno central
 
-- [Catálogo de Datos Abiertos del Gobierno Central](https://www.gobiernodigital.gob.ec/datos-abiertos/): datos del gobierno central
+- [Catálogo de Datos Abiertos del Gobierno Central](https://datosabiertos.gob.ec/): datos del gobierno central
 
 # Referencias
 
