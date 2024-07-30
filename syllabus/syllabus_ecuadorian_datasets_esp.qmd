@@ -105,5 +105,3 @@ Para cada conjunto de datos, cubriremos los siguientes aspectos:
 # Metodología
 
 Las primeras dos clases se conducirán de forma sincrónica, con demostraciones del instructor y discusiones en grupo. La participación activa en la discusión y planteamiento de preguntas es recomendada para sacar provecho a este módulo. En la tercera clase de ayudantía, se planificarán sesiones personalizadas en donde los docentes pueden acudir al instructor con preguntas específicas sobre sus proyectos de investigación o una base de datos que le interese, y recibir asesoramiento sobre cómo encontrar, entender y acceder a los datos necesarios. De igual forma, es posible trabajar en temas más avanzados como el análisis de datos, la limpieza y la visualización, o la citación de datos en trabajos académicos. En caso de que el tiempo de las primeras dos clases no sea suficiente para cubrir todos los temas, se podrá utilizar la tercera clase para completar el contenido.
-
-# Referencias
