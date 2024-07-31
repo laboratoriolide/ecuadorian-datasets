@@ -1,0 +1,393 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Bases de Datos Ecuatorianas},
+  pdfauthor={Laboratorio de Investigación para el Desarrollo del Ecuador},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Bases de Datos Ecuatorianas}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Una breve revisión del panorama ecuatoriano de datos de
+investigación}
+\author{Laboratorio de Investigación para el Desarrollo del Ecuador}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Descripción del curso}\label{descripciuxf3n-del-curso}
+
+Este módulo proporciona una visión general de los datos existentes para
+Ecuador, con un enfoque en conjuntos de datos que pueden ser
+aprovechados para la investigación en ciencias sociales cuantitativas. A
+menudo, un investigador puede encontrar obstáculos encontrando datos que
+respondan a sus preguntas de investigación. Este módulo tiene como
+objetivo proporcionar las herramientas para encontrar y acceder a
+conjuntos de datos existentes, así como entender los problemas
+metodológicos que implican su uso. Se introducen los tipos de conjuntos
+de datos existentes, dónde encontrarlos, las instituciones que los
+producen, cómo acceder a ellos, los problemas metodológicos y el
+potencial para investigaciones futuras. El módulo está diseñado para
+quiénes estén interesados en realizar investigaciones enfocadas en el
+Ecuador, pero que no están familiarizados con el panorama de datos
+existente. \textbf{No} se contempla la recolección de datos mediante
+experimentos o encuestas, sino el uso de datos recolectados por otras
+personas o instituciones.
+
+\section{Contenidos}\label{sec-contents}
+
+El siguiente es un esquema planificado del curso. Esto puede cambiar
+dependiendo del ritmo de la clase. Los materiales del módulo, incluidos
+las diapositivas, enlaces, conjuntos de datos (si es que aplica) y todos
+los demás archivos, se publicarán en el Google Drive del programa.
+
+\subsection{Clase 1: Introducción y conjuntos de datos
+básicos}\label{clase-1-introducciuxf3n-y-conjuntos-de-datos-buxe1sicos}
+
+\begin{itemize}
+\item
+  Introducción al módulo
+\item
+  Tipos de conjuntos de datos y como se presentan ante el usuario
+\item
+  Panorama general de los datos ecuatorianos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Instituciones públicas (gobiernos central y locales)
+  \item
+    Iniciativas no gubernamentales (académicas y de la sociedad civil)
+  \item
+    Organizaciones internacionales
+  \end{itemize}
+\item
+  Principales instituciones públicas que producen conjuntos de datos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Instituto Nacional de Estadística y Censos (INEC)
+  \item
+    Banco Central del Ecuador (BCE)
+  \item
+    Registro Civil
+  \item
+    Servicio de Rentas Internas (SRI)
+  \item
+    Instituto Ecuatoriano de Seguridad Social (IESS)
+  \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  Principales conjuntos de datos de encuestas para investigadores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Encuestas de empleo - Encuesta Nacional de Empleo, Desempleo y
+    Subempleo (ENEMDU)
+  \item
+    Censo de Población y Vivienda
+  \item
+    Encuestas de salud - Encuesta Nacional de Salud y Nutrición
+    (ENSANUT)
+  \item
+    Otros
+  \end{itemize}
+\item
+  Revisión a fondo: Encuesta Nacional de Empleo, Desempleo y Subempleo
+  (ENEMDU)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ¿De qué trata el conjunto de datos?
+  \item
+    ¿Qué se puede hacer con él?
+  \item
+    ¿Cómo acceder a él?
+  \item
+    ¿Dónde encontrar la documentación?
+  \end{itemize}
+\item
+  Principales conjuntos de datos administrativos para investigadores
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Datos de empleo y salarios - Registro Estadístico de Empleo en la
+    Seguridad Social (REESS)
+  \item
+    Datos empresariales - Directorio de Compañías (Superintendencia de
+    Compañías) y Directorio de Empresas y Establecimientos (INEC)
+  \item
+    Datos tributarios: ventas, compras, impuesto al valor agregado,
+    cierres y suspensiones (SRI)
+  \item
+    Voto y elecciones - Registro Electoral (Consejo Nacional Electoral)
+  \end{itemize}
+\item
+  Sitios web agregadores útiles
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Banco de Datos Abiertos Ecuador (Gobierno Central)
+  \item
+    Banco de Datos Abiertos INEC
+  \item
+    Archivo Nacional de Metadatos Estadísticos (INEC)
+  \end{itemize}
+\end{itemize}
+
+\subsection{Clase 2: Más allá de lo
+básico}\label{clase-2-muxe1s-alluxe1-de-lo-buxe1sico}
+
+\begin{itemize}
+\tightlist
+\item
+  Iniciativas de \emph{Gobierno Abierto}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Gobierno Abierto Quito, Quito Cómo Vamos.
+  \item
+    Banco de Datos Abiertos Ecuador (Gobierno Central)
+  \end{itemize}
+\item
+  Conjuntos de datos internacionales a nivel de país
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Banco Mundial (WDI, WGI)
+  \item
+    Banco Interamericano de Desarrollo
+  \item
+    Naciones Unidas
+  \item
+    CEPAL
+  \end{itemize}
+\item
+  Encuestas internacionales
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Barómetro de las Américas
+  \item
+    Latinobarómetro
+  \item
+    Encuesta Mundial de Valores
+  \end{itemize}
+\item
+  Iniciativas internacionales y no gubernamentales:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Datalat
+  \item
+    Observatorio Legislativo
+  \item
+    Observatorio de Contratación Pública (Fundación Ciudadanía y
+    Desarrollo)
+  \item
+    Asobanca
+  \end{itemize}
+\item
+  Datos especiales
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Geoportal INEC
+  \item
+    Datos macroeconómicos: BCE, CEPAL, FMI, Banco Mundial, Cordes
+    (NowCast).
+  \end{itemize}
+\item
+  Desafíos metodológicos en el uso de conjuntos de datos ecuatorianos
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Metadatos y documentación
+  \item
+    Facilidad de acceso y disponibilidad
+  \item
+    Calidad de los datos, fiabilidad y consideraciones éticas
+  \item
+    Acceso a instituciones gubernamentales fuera de Ecuador
+  \item
+    Comparación con otros países de América Latina
+  \item
+    Limpieza y procesamiento de datos, problemas comunes
+  \item
+    Reproducibilidad en la investigación revisada por pares
+  \item
+    ¿Cómo utilizan los autores publicados los conjuntos de datos
+    ecuatorianos?
+  \end{itemize}
+\end{itemize}
+
+\section{Metodología}\label{metodologuxeda}
+
+Las primeras dos clases se conducirán de forma sincrónica, con
+demostraciones del instructor y discusiones en grupo. La participación
+activa en la discusión y planteamiento de preguntas es recomendada para
+sacar provecho a este módulo. En la tercera clase de ayudantía, se
+planificarán sesiones personalizadas en donde los docentes pueden acudir
+al instructor con preguntas específicas sobre sus proyectos de
+investigación o una base de datos que le interese, y recibir
+asesoramiento sobre cómo encontrar, entender y acceder a los datos
+necesarios. De igual forma, es posible trabajar en temas más avanzados
+como el análisis de datos, la limpieza y la visualización, o la citación
+de datos en trabajos académicos. En caso de que el tiempo de las
+primeras dos clases no sea suficiente para cubrir todos los temas, se
+podrá utilizar la tercera clase para completar el contenido.
+
+
+
+\end{document}

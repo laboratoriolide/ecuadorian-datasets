@@ -1,0 +1,13 @@
+---
+title: Bases de Datos Ecuatorianas
+subtitle: Laboratorio de Investigación para el Desarrollo del Ecuador
+author: Daniel Sánchez-Pazmiño
+date: 2024-07-31
+format: 
+    revealjs:
+        theme: serif
+date-format: "long"
+lang: es
+---
+
+# Más alla de lo básico
