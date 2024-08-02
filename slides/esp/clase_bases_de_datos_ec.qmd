@@ -236,6 +236,60 @@ bibliography: ../../references/ecu_papers.bib
 
 - [Archivo Nacional de Metadatos Estadísticos INEC](https://anda.inec.gob.ec/anda/index.php/queeselanda)	
 
+# Encuestas internacionales {.smaller}
+
+- [Barómetro de las Américas](https://www.vanderbilt.edu/lapop/ecuador.php)
+
+- [Encuesta Mundial de Valores](https://www.worldvaluessurvey.org/WVSContents.jsp)
+
+- [LatinoBarómetro](https://www.latinobarometro.org/lat.jsp)
+
+# Conjuntos de datos internacionales {.smaller}
+
+- Banco Mundial
+    - [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators)
+    - [Worldwide Governance Indicators (WGI)](https://info.worldbank.org/governance/wgi/)
+
+# Iniciativas de datos abiertos {.smaller}
+
+- [Datos Abiertos Ecuador](https://datosabiertos.gob.ec/)
+
+- [Datos Abiertos INEC](https://www.ecuadorencifras.gob.ec/datos-abiertos/)
+
+- [Gobierno Abierto Quito](https://gobiernoabierto.quito.gob.ec/)
+
+- [Contrataciones Abiertas Ecuador - OCDS](https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA)
+
+# Iniciativas del sector civil {.smaller}
+
+- [Datalat](https://datalat.org/)
+
+- [Fundación Ciudadanía y Desarrollo](https://www.ciudadaniaydesarrollo.org/)
+    - [Observatorio de la Contratación Pública] (https://www.contratostransparentes.ec/)
+    - [Observatorio Legislativo] (https://www.observatoriolegislativo.ec/)
+
+# Datos especiales
+
+- Datos geoespaciales: [Geoportal INEC](https://www.ecuadorencifras.gob.ec/documentos/web-inec/Geografia_Estadistica/Micrositio_geoportal/index.html#clasificador-geog-dpa)
+
+- Datos macroeconómicos/banca
+    - [Banco Central del Ecuador](https://www.bce.fin.ec/index.php/estadisticas)
+    - [CEPALSTAT](https://estadisticas.cepal.org/cepalstat/WEB_CEPALSTAT/estadisticasIndicadores.asp?idioma=i)
+    - [Fondo Monetario Internacional](https://www.imf.org/en/Data)
+    - [Banco Mundial](https://databank.worldbank.org/source/world-development-indicators)
+    - [CAF](https://www.caf.com/es/conocimiento/datos/)
+    - [BID](https://www.iadb.org/en/knowledge-resources/data)
+    - [Asobanca](https://asobanca.org.ec/plataformas-de-datos/)
+    - [CORDES](https://www.cordes.org.ec/)
+
+- Adicionales
+    - [UNData](https://data.un.org/)
+    - [FAO](http://www.fao.org/faostat/en/#data)
+    - [Zenodo](https://zenodo.org/)
+    - [Kaggle](https://www.kaggle.com/datasets)
+    - [Harvard Dataverse](https://dataverse.harvard.edu/)
+
+
 # Referencias
 
 :::{.references}
