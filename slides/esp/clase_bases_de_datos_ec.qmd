@@ -265,8 +265,8 @@ bibliography: ../../references/ecu_papers.bib
 - [Datalat](https://datalat.org/)
 
 - [Fundación Ciudadanía y Desarrollo](https://www.ciudadaniaydesarrollo.org/)
-    - [Observatorio de la Contratación Pública] (https://www.contratostransparentes.ec/)
-    - [Observatorio Legislativo] (https://www.observatoriolegislativo.ec/)
+    - [Observatorio de la Contratación Pública](https://www.contratostransparentes.ec/)
+    - [Observatorio Legislativo](https://www.observatoriolegislativo.ec/)
 
 # Datos especiales
 
