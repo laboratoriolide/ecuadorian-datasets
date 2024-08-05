@@ -103,14 +103,20 @@ bibliography: ../../references/ecu_papers.bib
     - Reports: information presented in documents, generally with analysis and graphics. Also includes dynamic dashboards.
     - Database: several tables of microdata that can be joined by an identifier.
 
-# General Overview of Ecuadorian Data {.smaller}
+# An overview of Ecuadorian data {.smaller}
 
 - There are several institutions that produce data in Ecuador:
     - Public institutions (central and local governments)
     - Non-governmental initiatives (civil society)
     - International organizations
 
-- Most of the easily usable data comes from the **Insituto Nacional de Estadística y Censos (INEC)**.
+- Most easily accesible data comes from the **Instituto Nacional de Estadística y Censos (INEC)**.
     - Every country has an institute with a mandate for statistical data collection.
     - Responsible for the administration of censuses and surveys
-        - Maintains an information library for data from other institutions
+    - Maintains an information library for data from other institutions
+
+# References {.smaller}
+
+:::{.references}
+
+:::
