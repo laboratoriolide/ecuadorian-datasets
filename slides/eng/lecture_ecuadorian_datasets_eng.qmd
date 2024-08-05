@@ -1,0 +1,116 @@
+---
+title: Ecuadorian Datasets
+subtitle: Laboratorio de Investigación para el Desarrollo del Ecuador
+author: Daniel Sánchez-Pazmiño
+date: 2024-08-01
+date-format: "YYYY-MM"
+format: 
+    revealjs:
+        theme: serif
+lang: en
+bibliography: ../../references/ecu_papers.bib
+---
+
+# Introduction {.smaller}
+
+- Why worry about understanding Ecuadorian data?
+
+- What do some of the best articles by Ecuadorian researchers or those focused on Ecuador have in common?
+
+    - @adao_etal22: *The key input fed into our empirical analysis is a unique administrative data set from Ecuador that merges firm-to-firm transaction data, employer-employee matched data, owner-firm matched data, and firm-level customs transaction records.*
+
+    - @bosch_schady19: *To analyze the effects of transfers on the choice between formal and informal employment, we used the cédula of focal women, as reported in the 2007/08 poverty census, and merged in data on contributions to social security from IESS*.
+
+    - @rivadeneira23: *[...] I use hand-collected and digitized historical tax records from Ecuador’s Spanish colonial regime to estimate the long-run effects of a forced labor institution named concertaje.*
+
+# Is a good idea enough? {.smaller}
+
+- A good research question is fundamental but not enough.
+
+- It is generally necessary to have empirical evidence to support our answer to the research question
+    - This implies having information or **data**.
+
+- Feasible access to data that allows answering the question defines the success of the project.
+    - What data is needed?
+    - Where is the data? How can it be obtained?
+    - Is it easily accessible? How much time/resources are needed to obtain it?
+
+# Data Collection {.smaller}
+
+- Primary data collection: direct collection of the phenomenon of interest by the researcher
+    - It arises from primary sources (i.e., the respondent)
+    - It can be expensive and require time.
+    - Surveys, experiments, observations.
+    - An ethics review board (internal review board) will be required.
+
+- Secondary sources: information collected by other researchers or institutions, usable for our purposes.
+    - Free or paid.
+    - Censuses, survey data, administrative records, social media data.
+
+- **This course focuses on the use of secondary sources**.
+
+# Common Issues for Ecuadorian Research Questions {.smaller}
+
+- There are secondary data sources, but they are not always easy to find or access.
+
+- Ecuador's statistical capacity has been declining in recent years.
+
+- Information may be limited or unavailable in useful formats/aggregations.
+
+- Special permissions may be required.
+
+- Data documentation may be limited, and data quality is not guaranteed.
+
+- Formal education on the use of Ecuadorian research data is limited.
+
+# Types of Data {.smaller}
+
+1. **Censuses**: collection of information from an entire population (or a large part of it).
+    - Example: Censo de Población y Vivienda, Censo Económico.
+    - Advantages: excellent coverage, large number of variables of interest.
+    - Disadvantages: infrequent, not available for various situations and/or aggregations.
+
+# Types of Data {.smaller}
+
+2. **Surveys**: collection of information from part of the population (sample).
+    - Example: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), Encuesta de Condiciones de Vida (ECV), Encuesta de Salud y Nutrición (ENSANUT).
+    - Advantages: depending on the case, frequent updates and a large number of variables of interest, possibility of obtaining detailed information.
+    - Disadvantages: limitations in coverage, information quality, generally not possible to track individuals.
+
+# Types of Data {.smaller}
+
+3. **Administrative data**: collected by institutions, generally public, for non-research purposes, but which can still be used.
+    - Example: employment records from IESS, company records from Superintendencia de Compañías.
+    - Advantages: great coverage, frequent updates, possibility of tracking individual units.
+    - Disadvantages: limitations in quality, inconvenient formats or access, statistical complications, lack of variables of research interest.
+
+# Various Data Presentations {.smaller}
+
+- It is very important to differentiate the ways in which information is presented and how we can access it.
+
+- For this, it is important to recognize the *unit of observation* of the data.
+    - What is the information being collected about?
+
+- Example: ENEMDU
+    - Unit of observation: individuals (people) and households.
+
+# Types of Data Presentation {.smaller}
+
+- There are different ways an institution releases data:
+    - Metadata: information **about** the data, such as variables, codes, definitions, etc.
+    - Microdata or individual data: information at the level of individuals, companies, households, etc.
+    - Aggregated or tabulated data: summarized information, generally at the level of groups such as provinces, economic sectors, etc.
+    - Reports: information presented in documents, generally with analysis and graphics. Also includes dynamic dashboards.
+    - Database: several tables of microdata that can be joined by an identifier.
+
+# General Overview of Ecuadorian Data {.smaller}
+
+- There are several institutions that produce data in Ecuador:
+    - Public institutions (central and local governments)
+    - Non-governmental initiatives (civil society)
+    - International organizations
+
+- Most of the easily usable data comes from the **Insituto Nacional de Estadística y Censos (INEC)**.
+    - Every country has an institute with a mandate for statistical data collection.
+    - Responsible for ...
+

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es"><head>
-<script src="clase_bases_de_datos_ec_files/libs/clipboard/clipboard.min.js"></script>
-<script src="clase_bases_de_datos_ec_files/libs/quarto-html/tabby.min.js"></script>
-<script src="clase_bases_de_datos_ec_files/libs/quarto-html/popper.min.js"></script>
-<script src="clase_bases_de_datos_ec_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="clase_bases_de_datos_ec_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="clase_bases_de_datos_ec_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="clase_bases_de_datos_ec_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="clase_bases_de_datos_ec_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<html lang="en"><head>
+<script src="lecture_ecuadorian_datasets_eng_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="lecture_ecuadorian_datasets_eng_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Daniel Sánchez-Pazmiño">
-  <title>Bases de Datos Ecuatorianas</title>
+  <title>Ecuadorian Datasets</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="clase_bases_de_datos_ec_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="clase_bases_de_datos_ec_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -50,11 +50,11 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="clase_bases_de_datos_ec_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="clase_bases_de_datos_ec_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="clase_bases_de_datos_ec_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="clase_bases_de_datos_ec_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="clase_bases_de_datos_ec_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -346,7 +346,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Bases de Datos Ecuatorianas</h1>
+  <h1 class="title">Ecuadorian Datasets</h1>
   <p class="subtitle">Laboratorio de Investigación para el Desarrollo del Ecuador</p>
 
 <div class="quarto-title-authors">
@@ -357,363 +357,149 @@ Daniel Sánchez-Pazmiño
 </div>
 </div>
 
-  <p class="date">31 de julio de 2024</p>
+  <p class="date">2024-08</p>
 </section>
-<section id="introducción" class="title-slide slide level1 smaller center">
-<h1>Introducción</h1>
+<section id="introduction" class="title-slide slide level1 smaller center">
+<h1>Introduction</h1>
 <ul>
-<li><p>¿Por qué preocuparse por entender datos del Ecuador?</p></li>
-<li><p>¿Qué tienen en común algunos de los mejores artículos de investigadores ecuatorianos o que se enfocan en Ecuador?</p>
+<li><p>Why worry about understanding Ecuadorian data?</p></li>
+<li><p>What do some of the best articles by Ecuadorian researchers or those focused on Ecuador have in common?</p>
 <ul>
-<li><p><span class="citation" data-cites="adao_etal22">Adão et&nbsp;al. (<a href="#/referencias" role="doc-biblioref" onclick="">2022</a>)</span>: <em>The key input fed into our empirical analysis is a unique administrative data set from Ecuador that merges firm-to-firm transaction data, employer-employee matched data, owner-firm matched data, and firm-level customs transaction records.</em></p></li>
-<li><p><span class="citation" data-cites="bosch_schady19">Bosch y Schady (<a href="#/referencias" role="doc-biblioref" onclick="">2019</a>)</span>: <em>To analyze the effects of transfers on the choice between formal and informal employment, we used the cédula of focal women, as reported in the 2007/08 poverty census, and merged in data on contributions to social security from IESS</em>.</p></li>
-<li><p><span class="citation" data-cites="rivadeneira23">Rivadeneira (<a href="#/referencias" role="doc-biblioref" onclick="">2023</a>)</span>: <em>[…] I use hand-collected and digitized historical tax records from Ecuador’s Spanish colonial regime to estimate the long-run effects of a forced labor institution named concertaje.</em></p></li>
+<li><p><span class="citation" data-cites="adao_etal22">Adão et al. (<a href="#/general-overview-of-ecuadorian-data" role="doc-biblioref" onclick="">2022</a>)</span>: <em>The key input fed into our empirical analysis is a unique administrative data set from Ecuador that merges firm-to-firm transaction data, employer-employee matched data, owner-firm matched data, and firm-level customs transaction records.</em></p></li>
+<li><p><span class="citation" data-cites="bosch_schady19">Bosch and Schady (<a href="#/general-overview-of-ecuadorian-data" role="doc-biblioref" onclick="">2019</a>)</span>: <em>To analyze the effects of transfers on the choice between formal and informal employment, we used the cédula of focal women, as reported in the 2007/08 poverty census, and merged in data on contributions to social security from IESS</em>.</p></li>
+<li><p><span class="citation" data-cites="rivadeneira23">Rivadeneira (<a href="#/general-overview-of-ecuadorian-data" role="doc-biblioref" onclick="">2023</a>)</span>: <em>[…] I use hand-collected and digitized historical tax records from Ecuador’s Spanish colonial regime to estimate the long-run effects of a forced labor institution named concertaje.</em></p></li>
 </ul></li>
 </ul>
 </section>
 
-<section id="es-suficiente-una-buena-idea" class="title-slide slide level1 smaller center">
-<h1>¿Es suficiente una buena idea?</h1>
+<section id="is-a-good-idea-enough" class="title-slide slide level1 smaller center">
+<h1>Is a good idea enough?</h1>
 <ul>
-<li><p>Una buena pregunta de investigación es fundamental, pero no suficiente.</p></li>
-<li><p>Es generalmente necesario contar con una demostración empírica que respalde nuestra respuesta a la pregunta de investigación</p>
+<li><p>A good research question is fundamental but not enough.</p></li>
+<li><p>It is generally necessary to have empirical evidence to support our answer to the research question</p>
 <ul>
-<li>Esto implica contar con información o <strong>datos</strong>.</li>
+<li>This implies having information or <strong>data</strong>.</li>
 </ul></li>
-<li><p>Un acceso factible a datos que permitan responder la pregunta define el éxito del proyecto.</p>
+<li><p>Feasible access to data that allows answering the question defines the success of the project.</p>
 <ul>
-<li>¿Qué datos son necesarios?</li>
-<li>¿Dónde están datos? ¿Cómo se pueden obtener?</li>
-<li>¿Son fácilmente accesibles? ¿Cuanto tiempo/recursos se necesita para obtenerlos?</li>
+<li>What data is needed?</li>
+<li>Where is the data? How can it be obtained?</li>
+<li>Is it easily accessible? How much time/resources are needed to obtain it?</li>
 </ul></li>
 </ul>
 </section>
 
-<section id="recolección-de-datos" class="title-slide slide level1 smaller center">
-<h1>Recolección de datos</h1>
+<section id="data-collection" class="title-slide slide level1 smaller center">
+<h1>Data Collection</h1>
 <ul>
-<li>Recolección primaria de datos: recolección directa del fenómeno de interés por el investigador
+<li>Primary data collection: direct collection of the phenomenon of interest by the researcher
 <ul>
-<li>Surge de las fuentes primarias (i.e.&nbsp;el encuestado)</li>
-<li>Puede ser costoso y requerir tiempo.</li>
-<li>Encuestas, experimentos, observaciones.</li>
-<li>Se requerirá una junta de revisión ética (<em>internal review board</em>).</li>
+<li>It arises from primary sources (i.e., the respondent)</li>
+<li>It can be expensive and require time.</li>
+<li>Surveys, experiments, observations.</li>
+<li>An ethics review board (internal review board) will be required.</li>
 </ul></li>
-<li>Fuentes secundarias: información recolectada por otros investigadores o instituciones, utilizable para nuestros propósitos.
+<li>Secondary sources: information collected by other researchers or institutions, usable for our purposes.
 <ul>
-<li>Gratuitos o pagados.</li>
-<li>Censos, datos de encuesta, registros administrativos, datos de redes sociales.</li>
+<li>Free or paid.</li>
+<li>Censuses, survey data, administrative records, social media data.</li>
 </ul></li>
-<li><strong>Este curso se enfoca en el uso de fuentes secundarias</strong>.</li>
+<li><strong>This course focuses on the use of secondary sources</strong>.</li>
 </ul>
 </section>
 
-<section id="problemas-comunes-en-investigaciones-del-ecuador" class="title-slide slide level1 smaller center">
-<h1>Problemas comunes en investigaciones del Ecuador</h1>
+<section id="common-issues-for-ecuadorian-research-questions" class="title-slide slide level1 smaller center">
+<h1>Common Issues for Ecuadorian Research Questions</h1>
 <ul>
-<li><p>Existen fuentes secundarias de datos, pero no siempre son fáciles de encontrar o acceder.</p></li>
-<li><p>La capacidad estadística del Ecuador ha ido decreciendo en los últimos años.</p></li>
-<li><p>La información puede ser limitada o no disponible en formatos/agregaciones útiles.</p></li>
-<li><p>Se puede requerir de permisos especiales.</p></li>
-<li><p>La documentación de los datos puede ser limitada y la calidad de los datos no se garantiza.</p></li>
-<li><p>La educación formal en el uso de datos ecuatorianos de investigación es limitada.</p></li>
+<li><p>There are secondary data sources, but they are not always easy to find or access.</p></li>
+<li><p>Ecuador’s statistical capacity has been declining in recent years.</p></li>
+<li><p>Information may be limited or unavailable in useful formats/aggregations.</p></li>
+<li><p>Special permissions may be required.</p></li>
+<li><p>Data documentation may be limited, and data quality is not guaranteed.</p></li>
+<li><p>Formal education on the use of Ecuadorian research data is limited.</p></li>
 </ul>
 </section>
 
-<section id="tipos-de-datos" class="title-slide slide level1 smaller center">
-<h1>Tipos de datos</h1>
+<section id="types-of-data" class="title-slide slide level1 smaller center">
+<h1>Types of Data</h1>
 <ol type="1">
-<li><strong>Censos</strong>: recolección de información de toda una población o una muestra considerable de la misma.
+<li><strong>Censuses</strong>: collection of information from an entire population (or a large part of it).
 <ul>
-<li>Ejemplo: Censo de Población y Vivienda, Censo de Empresas.</li>
-<li>Ventajas: excelente cobertura, gran cantidad de variables de interés.</li>
-<li>Desventajas: poco frecuentes, no disponibles para varias situaciones y/o agregaciones.</li>
-</ul></li>
-<li><strong>Encuestas</strong>: recolección de información de una muestra de la población.
-<ul>
-<li>Ejemplo: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), Encuesta Nacional de Salud y Nutrición (ENSANUT).</li>
-<li>Ventajas: dependiendo del caso, actualización frecuente y gran cantidad de variables de interés, posibilidad de obtener información detallada.</li>
-<li>Desventajas: limitaciones en la cobertura, calidad de la información, generalmente no es posible realizar seguimiento de individuos.</li>
+<li>Example: Censo de Población y Vivienda, Censo Económico.</li>
+<li>Advantages: excellent coverage, large number of variables of interest.</li>
+<li>Disadvantages: infrequent, not available for various situations and/or aggregations.</li>
 </ul></li>
 </ol>
 </section>
 
-<section id="tipos-de-datos-1" class="title-slide slide level1 smaller center">
-<h1>Tipos de datos</h1>
+<section id="types-of-data-1" class="title-slide slide level1 smaller center">
+<h1>Types of Data</h1>
+<ol start="2" type="1">
+<li><strong>Surveys</strong>: collection of information from part of the population (sample).
+<ul>
+<li>Example: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), Encuesta de Condiciones de Vida (ECV), Encuesta de Salud y Nutrición (ENSANUT).</li>
+<li>Advantages: depending on the case, frequent updates and a large number of variables of interest, possibility of obtaining detailed information.</li>
+<li>Disadvantages: limitations in coverage, information quality, generally not possible to track individuals.</li>
+</ul></li>
+</ol>
+</section>
+
+<section id="types-of-data-2" class="title-slide slide level1 smaller center">
+<h1>Types of Data</h1>
 <ol start="3" type="1">
-<li><strong>Datos administrativos</strong>: recolectados por instituciones generalmente públicas para propósitos no investigativos, pero que pueden ser utilizados de todas formas.
+<li><strong>Administrative data</strong>: collected by institutions, generally public, for non-research purposes, but which can still be used.
 <ul>
-<li>Ejemplo: registros de empleo del IESS, registros de empresas de la Superintendencia de Compañías.</li>
-<li>Ventajas: gran cobertura, actualización frecuente, posibilidad de seguimiento a unidades individuales.</li>
-<li>Desventajas: limitaciones en la calidad, formatos o acceso inconvenientes, complicaciones estadísticas, falta de variables de interés investigativo.</li>
+<li>Example: employment records from IESS, company records from the Superintendence of Companies.</li>
+<li>Advantages: great coverage, frequent updates, possibility of tracking individual units.</li>
+<li>Disadvantages: limitations in quality, inconvenient formats or access, statistical complications, lack of variables of research interest.</li>
 </ul></li>
 </ol>
 </section>
 
-<section id="varias-presentaciones-de-datos" class="title-slide slide level1 smaller center">
-<h1>Varias presentaciones de datos</h1>
+<section id="various-data-presentations" class="title-slide slide level1 smaller center">
+<h1>Various Data Presentations</h1>
 <ul>
-<li><p>Es muy importante saber diferenciar las maneras en las que la información se presenta y cómo podemos acceder a la misma.</p></li>
-<li><p>Para esto, es importante reconocer la <em>unidad de observación</em> de los datos.</p>
+<li><p>It is very important to differentiate the ways in which information is presented and how we can access it.</p></li>
+<li><p>For this, it is important to recognize the <em>unit of observation</em> of the data.</p>
 <ul>
-<li>¿De qué se está recolectando información?</li>
+<li>What is the information being collected about?</li>
 </ul></li>
-<li><p>Ejemplo: Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU).</p>
+<li><p>Example: National Survey of Employment, Unemployment and Underemployment (ENEMDU).</p>
 <ul>
-<li>Unidad de observación: individuos (personas) y hogares.</li>
-</ul></li>
-</ul>
-</section>
-
-<section id="tipos-de-presentación-de-datos" class="title-slide slide level1 smaller center">
-<h1>Tipos de presentación de datos</h1>
-<ul>
-<li>Existen diferentes formas en las que una institución libera datos:
-<ul>
-<li>Metadatos: información <strong>sobre</strong> los datos, como variables, códigos, definiciones, etc.</li>
-<li>Microdatos o datos individuales: información a nivel de individuos, empresas, hogares, etc.</li>
-<li>Agregados o tabulados: información resumida, generalmente a nivel de grupos como provincias, sectores económicos, etc.</li>
-<li>Reportes: información presentada en documentos, generalmente con análisis y gráficos. También incluye tableros o <em>dashboards</em> dinámicos.</li>
-<li>Base de datos: varias tablas de microdatos que pueden ser unidas por un identificador</li>
+<li>Unit of observation: individuals (people) and households.</li>
 </ul></li>
 </ul>
 </section>
 
-<section id="panorama-general-de-los-datos-ecuatorianos" class="title-slide slide level1 smaller center">
-<h1>Panorama general de los datos ecuatorianos</h1>
+<section id="types-of-data-presentation" class="title-slide slide level1 smaller center">
+<h1>Types of Data Presentation</h1>
 <ul>
-<li>Existen varias instituciones que producen datos en Ecuador:
+<li>There are different ways an institution releases data:
 <ul>
-<li>Instituciones públicas (gobiernos central y locales)</li>
-<li>Iniciativas no gubernamentales (sociedad civil)</li>
-<li>Organizaciones internacionales</li>
-</ul></li>
-<li>Una mayoría de los datos fácilmente utilizables provienen del <strong>Instituto Nacional de Estadística y Censos (INEC)</strong>.
-<ul>
-<li>Todo país tiene un instituto con un mandato de recolección de datos estadísticos.</li>
-<li>Encargado de la administración de censos y encuestas</li>
-<li>Mantiene una biblioteca de información para datos de otras instituciones</li>
+<li>Metadata: information <strong>about</strong> the data, such as variables, codes, definitions, etc.</li>
+<li>Microdata or individual data: information at the level of individuals, companies, households, etc.</li>
+<li>Aggregated or tabulated data: summarized information, generally at the level of groups such as provinces, economic sectors, etc.</li>
+<li>Reports: information presented in documents, generally with analysis and graphics. Also includes dynamic dashboards.</li>
+<li>Database: several tables of microdata that can be joined by an identifier.</li>
 </ul></li>
 </ul>
 </section>
 
-<section id="panorama-general-de-los-datos-ecuatorianos-1" class="title-slide slide level1 smaller center">
-<h1>Panorama general de los datos ecuatorianos</h1>
+<section id="general-overview-of-ecuadorian-data" class="title-slide slide level1 smaller scrollable">
+<h1>General Overview of Ecuadorian Data</h1>
 <ul>
-<li><p>La información macroeconómica proviene del <strong>Banco Central del Ecuador (BCE)</strong></p></li>
-<li><p>Otras instituciones importantes a considerar:</p>
+<li>There are several institutions that produce data in Ecuador:
 <ul>
-<li>Registro Civil: información demográfica</li>
-<li>Servicio de Rentas Internas (SRI): información tributaria</li>
-<li>Superintendencia de Compañías: información de empresas y bolsa de valores</li>
-<li>Instituto Ecuatoriano de Seguridad Social (IESS): empleo, salud, pensiones</li>
+<li>Public institutions (central and local governments)</li>
+<li>Non-governmental initiatives (civil society)</li>
+<li>International organizations</li>
+</ul></li>
+<li>Most of the easily usable data comes from the <strong>National Institute of Statistics and Censuses (INEC)</strong>.
+<ul>
+<li>Every country has an institute with a mandate for statistical data collection.</li>
+<li>Responsible for …</li>
 </ul></li>
 </ul>
-</section>
-
-<section id="utilizando-el-sitio-web-del-inec" class="title-slide slide level1 smaller center">
-<h1>Utilizando el sitio web del INEC</h1>
-<ul>
-<li>El sitio web https://www.ecuadorencifras.gob.ec/ es la principal fuente de datos del INEC.
-<ul>
-<li>Se accede a datos seleccionando la opción <em>Estadísticas</em></li>
-</ul></li>
-</ul>
-
-<img data-src="img/inec_sitio_web_1.png" class="r-stretch quarto-figure-center"><p class="caption">INEC</p></section>
-
-<section id="utilizando-el-sitio-web-del-inec-1" class="title-slide slide level1 smaller center">
-<h1>Utilizando el sitio web del INEC</h1>
-<ul>
-<li>Cuando uno tiene un tema en mente, se puede realizar una búsqueda de estadísticas <em>por tema</em>.</li>
-</ul>
-
-<img data-src="img/inec_por_tema.png" class="r-stretch quarto-figure-center"><p class="caption">INEC</p></section>
-
-<section id="utilizando-el-sitio-web-del-inec-2" class="title-slide slide level1 smaller center">
-<h1>Utilizando el sitio web del INEC</h1>
-<ul>
-<li>El INEC también habilita búsquedas de estadísticas <em>por fuente</em>: censos, encuestas, registros administrativos, etc.</li>
-</ul>
-
-<img data-src="img/inec_por_fuente.png" class="r-stretch quarto-figure-center"><p class="caption">INEC</p></section>
-
-<section id="principales-censos" class="title-slide slide level1 smaller center">
-<h1>Principales censos</h1>
-<ul>
-<li><p>Censo de Población y Vivienda</p></li>
-<li><p>Censo Nacional Económico</p></li>
-<li><p>Censo Nacional Agropecuario</p></li>
-<li><p>Censo de Información Ambiental Económica en GAD Provinciales</p></li>
-</ul>
-</section>
-
-<section id="censo-de-población-y-vivienda" class="title-slide slide level1 smaller center">
-<h1>Censo de Población y Vivienda</h1>
-<ul>
-<li><p>En la página del <a href="https://www.ecuadorencifras.gob.ec/censo-de-poblacion-y-vivienda/">INEC</a>, la información del Censo de Población y Vivienda solamente está actualizada al 2010.</p></li>
-<li><p>El último censo se realizó en 2022, y se encuentra en <a href="https://www.censoecuador.gob.ec/">una página aparte</a>.</p></li>
-</ul>
-<!--
-- Show the page of the 2022 census
-- Show how to access the data and tabulations, metadata.
-- Repeat for 2010 census.
-- Show that projections are recently available using 2022 data.
--->
-</section>
-
-<section id="principales-encuestas" class="title-slide slide level1 smaller center">
-<h1>Principales encuestas</h1>
-<ul>
-<li><p>Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)</p></li>
-<li><p>Encuesta Nacional de Salud y Nutrición (ENSANUT)</p></li>
-<li><p>Encuesta de Condiciones de Vida (ECV)</p></li>
-<li><p>Encuesta Nacional Multipropósito</p></li>
-<li><p>Encuesta de Salud y Bienestar del Adulto Mayor (SABE)</p></li>
-</ul>
-</section>
-
-<section id="enemdu" class="title-slide slide level1 smaller center">
-<h1><a href="https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2021/Marzo-2021/Diseño%20Muestral%20ENEMDU%20Trimestral%20Enero_Marzo%202021.pdf">ENEMDU</a></h1>
-<ul>
-<li><p>Encuesta de empleo, representativa a nivel nacional y urbano-rural**.</p></li>
-<li><p>Se lleva a cabo de forma mensual</p>
-<ul>
-<li>Las ENEMDU “trimestral” y “anual” son agregaciones de las mensuales.</li>
-<li>Las agregaciones permiten ganar representatividad y reducir errores de muestreo.</li>
-</ul></li>
-<li><p>Se puede acceder a tabulaciones, metadatos y microdatos de la ENEMDU en la página del <a href="https://www.ecuadorencifras.gob.ec/estadisticas-laborales-abril-2023-2/">INEC</a>.</p></li>
-</ul>
-</section>
-
-<section id="página-principal-enemdu" class="title-slide slide level1 smaller center">
-<h1>Página principal ENEMDU</h1>
-
-<!-- 
-- Show how to access the data and tabulations, metadata.
-- 
- -->
-<img data-src="img/enemdu_homepage.png" class="r-stretch quarto-figure-center"><p class="caption">Página principal ENEMDU</p></section>
-
-<section id="tabulaciones-reportes-y-metadatos-enemdu" class="title-slide slide level1 smaller center">
-<h1>Tabulaciones, reportes y metadatos ENEMDU</h1>
-<ul>
-<li>Se puede acceder a:
-<ul>
-<li>Principales resultados (reporte)</li>
-<li>Tabulados y series históricas (tabulaciones)</li>
-<li>Fichas técnicas, guías de usuario, diccionarios de variables, metodología y sintaxis (metadatos)</li>
-</ul></li>
-<li>Las matrices de transición permiten hacer un análisis de seguimiento de individuos a lo largo del tiempo a lo largo de las olas de la encuesta.</li>
-</ul>
-</section>
-
-<section id="base-de-datos-de-enemdu" class="title-slide slide level1 smaller center">
-<h1>Base de datos de ENEMDU</h1>
-<ul>
-<li>Accesibles para el período vigente, años anteriores y matrices de transición.
-<ul>
-<li>Formato SPSS y CSV.</li>
-</ul></li>
-<li>Información de años anteriores disponible en el <a href="https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml">Banco de Datos Abiertos INEC</a></li>
-</ul>
-
-<img data-src="img/bases_de_datos_enemdu.png" class="r-stretch quarto-figure-center"><p class="caption">Base de datos ENEMDU</p></section>
-
-<section id="principales-registros-administrativos" class="title-slide slide level1 smaller center">
-<h1>Principales registros administrativos</h1>
-<ul>
-<li><p><a href="https://www.ecuadorencifras.gob.ec/anuario-de-nacimientos-y-defunciones/">Nacidos vivos</a> y <a href="https://www.ecuadorencifras.gob.ec/defunciones-generales/">defunciones generales</a> del Registro Civil (en INEC)</p></li>
-<li><p><a href="https://www.ecuadorencifras.gob.ec/registro-empleo-seguridad-social/">Registro Estadístico de Empleo en la Seguridad Social (REESS)</a></p></li>
-<li><p><a href="https://mercadodevalores.supercias.gob.ec/reportes/directorioCompanias.jsf">Directorio de Compañías (Superintendencia de Compañías)</a></p></li>
-<li><p><a href="https://www.ecuadorencifras.gob.ec/directoriodeempresas/">Directorio de Empresas y Establecimientos/Registro Estadístico de Empresas (REEM)</a></p></li>
-<li><p>Información tributaria del <a href="https://www.sri.gob.ec/datos-abiertos">Servicio de Rentas Internas (SRI)</a>: catastro, recaudación, ventas, compras, presión fiscal, vehículos, comprobantes electrónicos, etc.</p></li>
-<li><p>Resultados electorales del <a href="https://www.cne.gob.ec/resultados-electorales/">Consejo Nacional Electoral</a></p></li>
-</ul>
-</section>
-
-<section id="sitios-web-agregadores-útiles" class="title-slide slide level1 smaller center">
-<h1>Sitios web agregadores útiles</h1>
-<ul>
-<li><p><a href="https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml">Banco de Datos Abiertos INEC</a></p></li>
-<li><p><a href="https://datosabiertos.gob.ec/">Catálogo de Datos Abiertos del Gobierno Central</a></p></li>
-<li><p><a href="https://anda.inec.gob.ec/anda/index.php/queeselanda">Archivo Nacional de Metadatos Estadísticos INEC</a></p></li>
-</ul>
-</section>
-
-<section id="encuestas-internacionales" class="title-slide slide level1 smaller center">
-<h1>Encuestas internacionales</h1>
-<ul>
-<li><p><a href="https://www.vanderbilt.edu/lapop/ecuador.php">Barómetro de las Américas</a></p></li>
-<li><p><a href="https://www.worldvaluessurvey.org/WVSContents.jsp">Encuesta Mundial de Valores</a></p></li>
-<li><p><a href="https://www.latinobarometro.org/lat.jsp">LatinoBarómetro</a></p></li>
-</ul>
-</section>
-
-<section id="conjuntos-de-datos-internacionales" class="title-slide slide level1 smaller center">
-<h1>Conjuntos de datos internacionales</h1>
-<ul>
-<li>Banco Mundial
-<ul>
-<li><a href="https://databank.worldbank.org/source/world-development-indicators">World Development Indicators (WDI)</a></li>
-<li><a href="https://info.worldbank.org/governance/wgi/">Worldwide Governance Indicators (WGI)</a></li>
-</ul></li>
-</ul>
-</section>
-
-<section id="iniciativas-de-datos-abiertos" class="title-slide slide level1 smaller center">
-<h1>Iniciativas de datos abiertos</h1>
-<ul>
-<li><p><a href="https://datosabiertos.gob.ec/">Datos Abiertos Ecuador</a></p></li>
-<li><p><a href="https://www.ecuadorencifras.gob.ec/datos-abiertos/">Datos Abiertos INEC</a></p></li>
-<li><p><a href="https://gobiernoabierto.quito.gob.ec/">Gobierno Abierto Quito</a></p></li>
-<li><p><a href="https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA">Contrataciones Abiertas Ecuador - OCDS</a></p></li>
-</ul>
-</section>
-
-<section id="iniciativas-del-sector-civil" class="title-slide slide level1 smaller center">
-<h1>Iniciativas del sector civil</h1>
-<ul>
-<li><p><a href="https://datalat.org/">Datalat</a></p></li>
-<li><p><a href="https://www.ciudadaniaydesarrollo.org/">Fundación Ciudadanía y Desarrollo</a></p>
-<ul>
-<li><a href="https://www.contratostransparentes.ec/">Observatorio de la Contratación Pública</a></li>
-<li><a href="https://www.observatoriolegislativo.ec/">Observatorio Legislativo</a></li>
-</ul></li>
-</ul>
-</section>
-
-<section id="datos-especiales" class="title-slide slide level1 center">
-<h1>Datos especiales</h1>
-<ul>
-<li><p>Datos geoespaciales: <a href="https://www.ecuadorencifras.gob.ec/documentos/web-inec/Geografia_Estadistica/Micrositio_geoportal/index.html#clasificador-geog-dpa">Geoportal INEC</a></p></li>
-<li><p>Datos macroeconómicos/banca</p>
-<ul>
-<li><a href="https://www.bce.fin.ec/index.php/estadisticas">Banco Central del Ecuador</a></li>
-<li><a href="https://estadisticas.cepal.org/cepalstat/WEB_CEPALSTAT/estadisticasIndicadores.asp?idioma=i">CEPALSTAT</a></li>
-<li><a href="https://www.imf.org/en/Data">Fondo Monetario Internacional</a></li>
-<li><a href="https://databank.worldbank.org/source/world-development-indicators">Banco Mundial</a></li>
-<li><a href="https://www.caf.com/es/conocimiento/datos/">CAF</a></li>
-<li><a href="https://www.iadb.org/en/knowledge-resources/data">BID</a></li>
-<li><a href="https://asobanca.org.ec/plataformas-de-datos/">Asobanca</a></li>
-<li><a href="https://www.cordes.org.ec/">CORDES</a></li>
-</ul></li>
-<li><p>Adicionales</p>
-<ul>
-<li><a href="https://data.un.org/">UNData</a></li>
-<li><a href="http://www.fao.org/faostat/en/#data">FAO</a></li>
-<li><a href="https://zenodo.org/">Zenodo</a></li>
-<li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
-<li><a href="https://dataverse.harvard.edu/">Harvard Dataverse</a></li>
-</ul></li>
-</ul>
-</section>
-
-<section id="referencias" class="title-slide slide level1 smaller scrollable">
-<h1>Referencias</h1>
-<div class="references">
-
-</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -721,13 +507,13 @@ Daniel Sánchez-Pazmiño
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-adao_etal22" class="csl-entry" role="listitem">
-Adão, Rodrigo, Paul Carrillo, Arnaud Costinot, Dave Donaldson, y Dina Pomeranz. 2022. <span>«Imports, <span>Exports</span>, and <span>Earnings Inequality</span>: <span>Measures</span> of <span>Exposure</span> and <span>Estimates</span> of <span>Incidence</span>*»</span>. <em>The Quarterly Journal of Economics</em> 137 (3): 1553-1614. <a href="https://doi.org/10.1093/qje/qjac012">https://doi.org/10.1093/qje/qjac012</a>.
+Adão, Rodrigo, Paul Carrillo, Arnaud Costinot, Dave Donaldson, and Dina Pomeranz. 2022. <span>“Imports, <span>Exports</span>, and <span>Earnings Inequality</span>: <span>Measures</span> of <span>Exposure</span> and <span>Estimates</span> of <span>Incidence</span>*.”</span> <em>The Quarterly Journal of Economics</em> 137 (3): 1553–1614. <a href="https://doi.org/10.1093/qje/qjac012">https://doi.org/10.1093/qje/qjac012</a>.
 </div>
 <div id="ref-bosch_schady19" class="csl-entry" role="listitem">
-Bosch, Mariano, y Norbert Schady. 2019. <span>«The Effect of Welfare Payments on Work: <span>Regression</span> Discontinuity Evidence from <span>Ecuador</span>»</span>. <em>Journal of Development Economics</em> 139 (junio): 17-27. <a href="https://doi.org/10.1016/j.jdeveco.2019.01.008">https://doi.org/10.1016/j.jdeveco.2019.01.008</a>.
+Bosch, Mariano, and Norbert Schady. 2019. <span>“The Effect of Welfare Payments on Work: <span>Regression</span> Discontinuity Evidence from <span>Ecuador</span>.”</span> <em>Journal of Development Economics</em> 139 (June): 17–27. <a href="https://doi.org/10.1016/j.jdeveco.2019.01.008">https://doi.org/10.1016/j.jdeveco.2019.01.008</a>.
 </div>
 <div id="ref-rivadeneira23" class="csl-entry" role="listitem">
-Rivadeneira, Alex. 2023. <span>«The <span>Legacy</span> of&nbsp;<span>Concertaje</span> in&nbsp;<span>Ecuador</span>»</span>. En <em>Roots of <span>Underdevelopment</span>: <span>A New Economic</span> and <span>Political History</span> of <span>Latin America</span> and the <span>Caribbean</span></em>, editado por Felipe Valencia Caicedo, 127-62. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-031-38723-4_5">https://doi.org/10.1007/978-3-031-38723-4_5</a>.
+Rivadeneira, Alex. 2023. <span>“The <span>Legacy</span> of&nbsp;<span>Concertaje</span> in&nbsp;<span>Ecuador</span>.”</span> In <em>Roots of <span>Underdevelopment</span>: <span>A New Economic</span> and <span>Political History</span> of <span>Latin America</span> and the <span>Caribbean</span></em>, edited by Felipe Valencia Caicedo, 127–62. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-031-38723-4_5">https://doi.org/10.1007/978-3-031-38723-4_5</a>.
 </div>
 </div>
 </section>
@@ -735,19 +521,19 @@ Rivadeneira, Alex. 2023. <span>«The <span>Legacy</span> of&nbsp;<span>Concertaj
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="clase_bases_de_datos_ec_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="lecture_ecuadorian_datasets_eng_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -992,12 +778,12 @@ Rivadeneira, Alex. 2023. <span>«The <span>Legacy</span> of&nbsp;<span>Concertaj
         // flash "checked"
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copiado");
+        button.setAttribute("title", "Copied!");
         let tooltip;
         if (window.bootstrap) {
           button.setAttribute("data-bs-toggle", "tooltip");
           button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copiado");
+          button.setAttribute("data-bs-title", "Copied!");
           tooltip = new bootstrap.Tooltip(button, 
             { trigger: "manual", 
               customClass: "code-copy-button-tooltip",
