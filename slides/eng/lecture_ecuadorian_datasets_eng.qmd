@@ -112,5 +112,5 @@ bibliography: ../../references/ecu_papers.bib
 
 - Most of the easily usable data comes from the **Insituto Nacional de Estadística y Censos (INEC)**.
     - Every country has an institute with a mandate for statistical data collection.
-    - Responsible for ...
-
+    - Responsible for the administration of censuses and surveys
+        - Maintains an information library for data from other institutions
