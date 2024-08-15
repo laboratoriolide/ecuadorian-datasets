@@ -115,6 +115,182 @@ bibliography: ../../references/ecu_papers.bib
     - Responsible for the administration of censuses and surveys
     - Maintains an information library for data from other institutions
 
+# An overview of Ecuadorian data {.smaller}
+
+- Macroeconomic information comes from the **Central Bank of Ecuador (BCE)**
+
+- Other important institutions to consider:
+     - Civil Registry: demographic information
+     - Internal Revenue Service (SRI): tax information
+     - Superintendence of Companies: information on companies and stock market
+     - Ecuadorian Institute of Social Security (IESS): employment, health, pensions
+
+# Using the INEC Website {.smaller}
+
+- The website [https://www.ecuadorencifras.gob.ec/](https://www.ecuadorencifras.gob.ec/) is the main source of INEC data.
+    - Data is accessed by selecting the *Statistics* option
+
+![INEC](img/inec_sitio_web_1.png)
+
+# Using the INEC Website {.smaller}
+
+- When you have a topic in mind, you can search for statistics *by topic*.
+
+![INEC](img/inec_por_tema.png)
+
+# Using the INEC Website {.smaller}
+
+- INEC also enables searches for statistics *by source*: censuses, surveys, administrative records, etc.
+
+![INEC](img/inec_por_fuente.png)
+
+# Main Censuses {.smaller}
+
+- Population and Housing Census - *Censo de Población y Vivienda*
+
+- National Economic Census - *Censo Nacional Económico*
+
+- National Agricultural Census - *Censo Nacional Agropecuario*
+
+- Census of Environmental Economic Information in Provincial GADs - *Censo de Información Económica Ambiental en los GADs Provinciales*
+
+# Population and Housing Census {.smaller}
+
+- On the [INEC website](https://www.ecuadorencifras.gob.ec/censo-de-poblacion-y-vivienda/), the information for the Population and Housing Census is only updated to 2010.
+
+- The last census was conducted in 2022 and can be found on [a separate page](https://www.censoecuador.gob.ec/).
+
+<!--
+- Show the page of the 2022 census
+- Show how to access the data and tabulations, metadata.
+- Repeat for 2010 census.
+- Show that projections are recently available using 2022 data.
+-->
+
+# Main Surveys {.smaller}
+
+ - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU) - Employment
+
+ - Encuesta Nacional de Salud y Nutrición (ENSANUT) - Health and Nutrition
+
+ - Encuesta de Condiciones de Vida (ECV) - Living Conditions
+
+ - Encuesta Nacional Multipropósito - Multipurpose National Survey
+
+ - Encuesta de Salud y Bienestar del Adulto Mayor (SABE) - Health and Well-being of the Elderly
+
+# [ENEMDU](https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2021/Marzo-2021/Diseño%20Muestral%20ENEMDU%20Trimestral%20Enero_Marzo%202021.pdf) {.smaller}
+
+- Employment survey, representative at the national and urban-rural levels**.
+
+- Conducted monthly
+    - The "quarterly" and "annual" ENEMDU are aggregations of the monthly surveys.
+    - Aggregations allow for greater representativeness and reduced sampling errors.
+
+- You can access tabulations, metadata, and microdata of the ENEMDU on the [INEC website](https://www.ecuadorencifras.gob.ec/estadisticas-laborales-abril-2023-2/).
+
+# ENEMDU Homepage {.smaller}
+
+![ENEMDU Homepage](img/enemdu_homepage.png)
+
+<!-- 
+- Show how to access the data and tabulations, metadata.
+- 
+-->
+
+# ENEMDU Tabulations, Reports, and Metadata {.smaller}
+
+- Accessible resources:
+    - Main results (report)
+    - Tabulations and historical series (tabulations)
+    - Technical sheets, user guides, variable dictionaries, methodology, and syntax (metadata)
+    
+- Transition matrices allow for tracking individuals over time through the survey waves.
+
+# ENEMDU Data {.smaller}
+
+- Accessible for the current period, previous years, and transition matrices.
+    - Formats available: SPSS and CSV.
+
+- Information from previous years is available on the [INEC Open Data Bank](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml)
+
+![ENEMDU Data](img/bases_de_datos_enemdu.png)
+
+# Main Administrative Records {.smaller}
+
+- [Nacidos vivos](https://www.ecuadorencifras.gob.ec/anuario-de-nacimientos-y-defunciones/) and [General Deaths](https://www.ecuadorencifras.gob.ec/defunciones-generales/) from Registro Civil - live births
+
+- [Nacidos vivos](https://www.ecuadorencifras.gob.ec/anuario-de-nacimientos-y-defunciones/) y [defunciones generales](https://www.ecuadorencifras.gob.ec/defunciones-generales/) del Registro Civil (en INEC)
+
+- [Registro Estadístico de Empleo en la Seguridad Social (REESS)](https://www.ecuadorencifras.gob.ec/registro-empleo-seguridad-social/) - major administrative record of employment
+
+- [Directorio de Compañías (Superintendencia de Compañías)](https://mercadodevalores.supercias.gob.ec/reportes/directorioCompanias.jsf) - company directory
+
+- [Directorio de Empresas y Establecimientos/Registro Estadístico de Empresas (REEM)](https://www.ecuadorencifras.gob.ec/directoriodeempresas/) - major administrative record of companies
+
+- Tax information from the [Internal Revenue Service (SRI)](https://www.sri.gob.ec/datos-abiertos): cadastre, revenue, sales, purchases, tax pressure, vehicles, electronic receipts, etc.
+
+- Electoral results from the [Consejo Nacional Electoral](https://www.cne.gob.ec/resultados-electorales/)
+
+# Useful Aggregator Websites {.smaller}
+
+- [Banco de Datos Abiertos INEC](https://aplicaciones3.ecuadorencifras.gob.ec/BIINEC-war/index.xhtml)
+
+- [Catálogo de Datos Abiertos del Gobierno Central](https://datosabiertos.gob.ec/)
+
+- [Archivo Nacional de Metadatos Estadísticos INEC](https://anda.inec.gob.ec/anda/index.php/queeselanda)	
+
+# International Surveys {.smaller}
+
+- [AmericasBarometer](https://www.vanderbilt.edu/lapop/ecuador.php)
+
+- [World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp)
+
+- [Latinobarómetro](https://www.latinobarometro.org/lat.jsp)
+
+# International Data Sets {.smaller}
+
+- World Bank
+    - [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators)
+    - [Worldwide Governance Indicators (WGI)](https://info.worldbank.org/governance/wgi/)
+
+# Open Data Initiatives {.smaller}
+
+- [Open Data Ecuador](https://datosabiertos.gob.ec/)
+
+- [INEC Open Data](https://www.ecuadorencifras.gob.ec/datos-abiertos/)
+
+- [Open Government Quito](https://gobiernoabierto.quito.gob.ec/)
+
+# Civil Sector Initiatives {.smaller}
+
+- [Datalat](https://datalat.org/)
+
+- [Fundación Ciudadanía y Desarrollo](https://www.ciudadaniaydesarrollo.org/)
+    - [Observatorio de la Contratación Pública](https://www.contratostransparentes.ec/)
+    - [Observatorio Legislativo](https://www.observatoriolegislativo.ec/)
+
+# Special Data
+
+- Geospatial data: [INEC Geoportal](https://www.ecuadorencifras.gob.ec/documentos/web-inec/Geografia_Estadistica/Micrositio_geoportal/index.html#clasificador-geog-dpa)
+
+- Macroeconomic/banking data
+    - [Central Bank of Ecuador](https://www.bce.fin.ec/index.php/estadisticas)
+    - [CEPALSTAT](https://estadisticas.cepal.org/cepalstat/WEB_CEPALSTAT/estadisticasIndicadores.asp?idioma=i)
+    - [International Monetary Fund](https://www.imf.org/en/Data)
+    - [World Bank](https://databank.worldbank.org/source/world-development-indicators)
+    - [CAF](https://www.caf.com/es/conocimiento/datos/)
+    - [IDB](https://www.iadb.org/en/knowledge-resources/data)
+    - [Asobanca](https://asobanca.org.ec/plataformas-de-datos/)
+    - [CORDES](https://www.cordes.org.ec/)
+
+- Additional resources
+    - [UNData](https://data.un.org/)
+    - [FAO](http://www.fao.org/faostat/en/#data)
+    - [Zenodo](https://zenodo.org/)
+    - [Kaggle](https://www.kaggle.com/datasets)
+    - [Harvard Dataverse](https://dataverse.harvard.edu/)
+
 # References {.smaller}
 
 :::{.references}
