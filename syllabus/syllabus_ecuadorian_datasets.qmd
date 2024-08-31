@@ -14,15 +14,17 @@ number-sections: true
 
 **Prerequisite knowledge**: None
 
-**GitHub repository**: https://github.com/laboratoriolide/ecuadorian-datasets
+**GitHub repository**: [https://github.com/laboratoriolide/ecuadorian-datasets](https://github.com/laboratoriolide/ecuadorian-datasets)
+
+**Slides**: [https://rpubs.com/dsanchezp998/ecuadorian-datasets](https://rpubs.com/dsanchezp998/ecuadorian-datasets)
 
 # Course overview
 
-This short module provides an overview of the existing data for Ecuador, with a focus on datasets which can be leveraged for quantitative social science research. Oftentimes, young researchers may hit a hard stop in their research due to their inability to find good data to answer their research questions. This module aims to provide students with the tools to find and access existing datasets, as well as to understand the methodological issues that come with using them. I introduce the existing dataset types, where to find them, the institutions that produce them, how to access them, methodological issues, and the potential for future research. The module is designed for students who are interested in conducting research in Ecuador, but are not familiar with the existing data landscape.
+This short module provides an overview of the existing data for Ecuador, with a focus on datasets which can be leveraged for quantitative social science research. Oftentimes, young researchers may hit a hard stop in their research due to their inability to find good data to answer their research questions. This module aims to provide students with the tools to find and access existing datasets, as well as to understand the methodological issues that come with using them. I introduce existing dataset types, where to find them, institutions that produce them, how to access them, methodological issues, and potential for future research. The module is designed for students who are interested in conducting research in Ecuador, but are not familiar with the existing data landscape. The collection of data through surveys and experimental methods is **not** covered in this module; rather, we focus on secondary sources collected by other researchers and institutions.
 
 # Module contents {#sec-contents}
 
-The following is a planned outline of the course. This may change depending on the pace of the class. The module's materials, including slides, links, datasets and all other files (if applicable), will be released in the course's [GitHub repository](https://github.com/laboratoriolide/ecuadorian-datasets).
+The following is a planned outline of the course. This may change depending on the pace of the class. The module's materials, including slides, links, datasets and all other files (if applicable), will be released in the course's [GitHub repository](https://github.com/laboratoriolide/ecuadorian-datasets). A live preview of the slides can be seen [here](https://rpubs.com/dsanchezp998/ecuadorian-datasets).
 
 ## Lecture 1: Introduction and basic datasets
 
@@ -56,39 +58,64 @@ For each dataset, we'll cover the following aspects:
     - Employment surveys - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
     - Population Census - Censo de Población y Vivienda 
     - Health surveys - Encuesta Nacional de Salud y Nutrición (ENSANUT)
+    - Others, as time permits
+    
+- Case study: ENEMDU
+  - What is the dataset about?
+  - What can be done with it?
+  - How to access it?
+  - Where to find the documentation?
 
 - Main administrative datasets for researchers
     - Employment and salary data - Registro Estadístico de Empleo en la Seguridad Social (REESS)
     - Business data - Directorio de Compañías (Superintendencia de Compañías) and Directorio de Empresas y Establecimientos (INEC)
     - Tax data: sales, purchases, value added tax, closures and suspensions (SRI).
     - Demographic and morbidity data - Registro Civil
-    - Social security data - Instituto Ecuatoriano de Seguridad Social (IESS)
+    - Social security and health data - Instituto Ecuatoriano de Seguridad Social (IESS)
+    
+- Case study: REESS
+  - What is the dataset about?
+  - What can be done with it?
+  - How to access it?
+  - Where to find the documentation?
 
 - Useful aggregator websites
     - Banco de Datos Abiertos Ecuador (Central Government)
     - Banco de Datos Abiertos INEC
     - Archivo Nacional de Metadatos Estadísticos (INEC)
-    - Geoportal INEC
-
+  
 ## Lecture 2: Beyond the basics
 
-- Local Government dataset initiatives
+<!-- - Local Government dataset initiatives ! -->
 - *Open Government* initiatives
     - Gobierno Abierto (Local Governments)
     - Banco de Datos Abiertos Ecuador (Central Government)
+    
 - International country level datasets
     - World Bank
     - Inter-American Development Bank
     - United Nations
     - CEPAL
+  
 - International Surveys
     - AmericasBarometer
     - Latinobarómetro
     - World Values Survey
+  
 - International and non-governmental initiatives:
     - Datalat
     - Observatorio Legislativo
     - Observatorio de Contratación Pública (Fundación Ciudadanía y Desarrollo)
+    - Asobanca
+
+- Special data
+  - Geospatial data: Geoportal INEC, NOAA Physical Sciences Laboratory
+  - Datos macroeconómicos
+    - Banco Central del Ecuador (BCE)
+    - CEPAL
+    - IMF
+    - World Bank (World Development Indicators, Doing Business, etc.)
+    - Cordes NowCast
 
 - Methodological challenges in using Ecuadorian datasets
     - Metadata and documentation
@@ -102,7 +129,7 @@ For each dataset, we'll cover the following aspects:
 
 # Evaluation
 
-This short module will be graded following the program's grading policy. Please consult the regulation handbook for more information. Attendance is mandatory, and students are encouraged to participate in the two lectures. All communications should be made through Slack. 
+This short module will be graded following the program's grading policy. Please consult the regulation handbook for more information. Attendance is mandatory, and students are encouraged to participate in the two lectures.
 
 # Communication
 
