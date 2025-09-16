@@ -32,8 +32,8 @@ bibliography: ../../references/ecu_papers.bib
 
 - Un acceso factible a datos que permitan responder la pregunta define el éxito del proyecto.
     - ¿Qué datos son necesarios?
-    - ¿Dónde están datos? ¿Cómo se pueden obtener?
-    - ¿Son fácilmente accesibles? ¿Cuanto tiempo/recursos se necesita para obtenerlos?
+    - ¿Dónde están **los** datos? ¿Cómo se pueden obtener?
+    - ¿Son fácilmente accesibles? ¿**Cuánto** tiempo/recursos se necesita para obtenerlos?
 
 # Recolección de datos {.smaller}
 
@@ -179,7 +179,7 @@ bibliography: ../../references/ecu_papers.bib
 
 # [ENEMDU](https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2021/Marzo-2021/Diseño%20Muestral%20ENEMDU%20Trimestral%20Enero_Marzo%202021.pdf) {.smaller}
  
-- Encuesta de empleo, representativa a nivel nacional y urbano-rural**.
+ - Encuesta de empleo, representativa a nivel nacional y urbano-rural.
 
 - Se lleva a cabo de forma mensual
     - Las ENEMDU "trimestral" y "anual" son agregaciones de las mensuales.
